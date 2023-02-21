@@ -28,6 +28,6 @@ var swiper = new Swiper('.work-content', {
     loopFillGroupWithBlank: true,
     pagination: {
       el: '.swiper-pagination',
-      clickable: true,
+
     },
   });
