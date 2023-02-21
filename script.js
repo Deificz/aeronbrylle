@@ -1,3 +1,4 @@
+
 var swiper = new Swiper('.work-content', {
     effect: 'coverflow',
     grabCursor: true,
@@ -13,6 +14,7 @@ var swiper = new Swiper('.work-content', {
     },
     pagination: {
       el: '.swiper-pagination',
+      clickable: true,
     },
   });
 
