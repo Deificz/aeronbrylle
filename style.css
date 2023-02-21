@@ -338,11 +338,11 @@ nav ul li a:hover::after{
 }
 
 .layer{
-    width:89.3%;
+    width:89.4%;
     height:0;
     transition: height 0.5s;
     background: linear-gradient(rgba(0,0,0,0.6), darkcyan);
-    border-radius: 10px;
+    border-radius: 0.8%;
     position: absolute;
     left: 0;
     bottom: 0;
@@ -613,4 +613,120 @@ nav .fas{
    .medias{
     flex-basis: 30%;
    }
+
+   .work-list h6{
+    font-size: 12px;
+    margin-bottom: 10px;
+    
+   }
+   .work-list p{
+    font-size: 10px;
+    text-align: left;
+   }
+   .layer a{
+    margin-top: 10px;
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+    line-height: 30px;
+    background: white;
+    width: 30px;
+    height:30px;
+    border-radius: 50%;
+    text-align: center;
+    }
+}
+
+@media only screen and (max-width:700px){
+    #header{
+        background-image: url(Images/phonebg.jpg);
+    }
+    .header-text{
+        margin-top: 20%;
+        margin-left: 90px;
+        font-size: 20px;
+    }
+    .header-text h1{
+        font-size:35px;
+        margin-left: -5%;
+    }
+    nav .fas{
+        display:block;
+        font-size:25px;
+        margin-top: 10%;
+        margin-left: 80%;
+    }
+    nav ul{
+        background: linear-gradient(rgba(0,0,0,1), darkcyan);
+        position:fixed;
+        top:0;
+        right:-200px;
+        width:200px;
+        height:100vh;
+        padding-top: 50px;
+        transition: right 0.4s;
+    }
+
+    nav ul li{
+        display:block;
+        margin:25px;
+
+    }
+
+    nav ul .fas{
+        position:absolute;
+        top:25px;
+        left:25px;
+        cursor:pointer;
+        margin-left: 60%;
+    }
+    .sub-title{
+        font-size: 40px;
+        text-align: center;
+    }
+    .about-col-1, .about-col-2{
+        flex-basis: 100%;
+        text-align: center;
+    }
+    .about-col-2{
+        font-size: 14px;
+        text-align: center;
+    }
+    .tab-links{
+        font-size: 16px;
+        margin-right: 20px;
+        text-align: center;
+    }
+
+    .contact-left, .contact-right{
+        flex-basis: 100%;
+        text-align: center;
+    }
+
+   .medias{
+    flex-basis: 30%;
+   }
+
+   .work-list h6{
+    font-size: 12px;
+    margin-bottom: 10px;
+    
+   }
+   .work-list p{
+    font-size: 10px;
+    text-align: left;
+    display: none;
+   }
+   .layer a{
+    margin-top: 10px;
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+    line-height: 30px;
+    background: white;
+    width: 30px;
+    height:30px;
+    border-radius: 50%;
+    text-align: center;
+}
 }
