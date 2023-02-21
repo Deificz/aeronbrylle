@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="swiper-bundle.min.css">
+    <script src="https://kit.fontawesome.com/99fb829d39.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<!--HEADER SECTION-->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul id="sideMenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#works">Works</a></li>
+                    <li><a href="#socials">Socials</a></li>
+                    <li><a href="#contacts">Contact</a></li>
+                    <i class="fas fa-regular fa-circle-xmark" onclick="closeMenu()"></i>
+                </ul>
+                <i class="fas fa-solid fa-bars" onclick="openMenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Student.Programmer.Gamer.Editor</p>
+                <h1>Hi ! I'm <span>AERON BRYLLE</span> <br> :)</h1>
+            </div>
+        </div>
+    </div>
+
+<!--ABOUT SECTION-->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img class="profilePic" src="images/prof2.png">
+                </div>
+                <div class="about-col-2">
+                    <h2 class="sub-title"><span style="--i:1">A</span>
+                                          <span style="--i:2">B</span>
+                                          <span style="--i:3">O</span>
+                                          <span style="--i:4">U</span>
+                                          <span style="--i:5">T</span> 
+                                          ME</h2>
+                    <p>Hello! I'm Aeron Brylle Lazo, you can call me Ron or Brylle.<br>
+                        Born on May 08, 2001 and currently living in Muntinlupa City.<br>
+                        I am currently studying Computer Science at Polytechnic University of the Philippines.<br>
+                        I have interests in computer stuffs such as programming, photo&video editing, and especially gaming. <br>
+                        I like music! </p>
+                
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('techstack')">Tech-stack</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('certificate')">Certificates</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="techstack">
+                        <ul>
+                            <li><span>C | Python</span><br>Machine Problems Coding</li>
+                            <li><span>C# | Java</span><br>Application Development | Inventory Management System</li>
+                            <li><span>HTML | CSS | PHP</span><br>Web Development</li>
+                            <li><span>MySQL | phpadmin | MariaDB </span><br>Database management for Application and Web Development</li>
+                            <li><span>Microsoft Office 365 </span><br>Document Management</li>
+                            <li><span>Adobe Photoshop | Adobe Premiere Pro </span><br>Photo and Video Editing</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Primary School</span><br>Graduated with Top 15% of the class at Our Lady of the Abandoned Catholic School</li>
+                            <li><span>Junior Highschool</span><br>Graduated with Top 20% of the class and Complete Attendance :) at Our Lady of the Abandoned Catholic School</li>
+                            <li><span>Senior Highschool</span><br>Graduated at Polytechnic University of the Philippines with Honors</li>
+                            <li><span>College</span><br>Currently studying at Poltechnic University of the Philippines</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>OJT WSAP</span><br>Web Development & Analyst | Database Management</li>
+                            <li><span>OJT PUP</span><br>Transcriber</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="certificate">
+                        <ul>
+                            <li><span>Fortinet Training Institute</span><br><a class="image-link" href="images/NSE1.png" target="_blank">NSE 1 Information Security Awareness</a>
+                                <img src="images/formlogo.png" alt="" height="20px">
+                            </li>
+                            <li><span>Fortinet Training Institute</span><br><a class="image-link" href="images/NSE2.png" target="_blank">NSE 2 The Evolution of Cybersecurity</a>
+                                <img src="images/formlogo.png" alt="" height="20px">
+                            </li>
+                            <li><span>Cisco</span><br><a class="image-link" href="images/IntroCyberSec.png" target="_blank">Introduction to Cybersecurity</a>
+                                <img src="images/formlogo.png" alt="" height="20px">
+                            </li>
+                            <li><span>Cisco</span><br><a class="image-link" href="images/NetworkingBasics.png" target="_blank">Networking Basics</a>
+                                <img src="images/formlogo.png" alt="" height="20px">
+                            </li>
+                            <li><span>The Open University</span><br><a class="image-link" href="images/StaySafe.png" target="_blank">Introduction to Cybersecurity: stay safe online</a>
+                                <img src="images/formlogo.png" alt="" height="20px">
+                            </li>
+                        </ul>
+                    </div>
+                
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--SKILLS SECTION-->
+<div id="skills">
+    <div class="skills-container">
+        <h3 class = "sub-title">MY <span>SKILLS</span></h3>
+        <div class="my-skills">
+            <div>
+                <i class="fa-regular fa-window-restore"></i>
+                <h4>App and Web Development</h4>
+                <p>I mostly developed applications such as Inventory system and Information system using Java and C#.<br><br>
+                    I also solved different coding problems like sorting numbers using different algorithms, mathematical calculations, and etc. using C, Java, and a little bit of Python.<br><br>
+                    I can develop Websites using languages such as HTML, CSS, PHP, and a little bit of JS.<br><br>
+                    I can also manage and analyze websites using different tools such as Google Analytics, Google Lighthouse, and WordPress Manager</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h4>Database Management</h4>
+                <p>I can create Database Designs with ER Diagrams and Normalization. I mainly uses MariaDB for database, and HeidiSQL and phpMyAdmin for Database Management </p>
+            </div>
+            <div>
+                <i class="fa-solid fa-camera-retro"></i>
+                <h4>Photo and Video Editing</h4>
+                <p>I also like editing photos and videos using Adobe Photoshop and Adobe Premiere Pro. I also have interest in Photography and Videography</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--WORKS SECTION-->
+<div id="works">
+    <div class="works-container swiper">
+        <h5 class="sub-title"><span style="--i:1">W</span> 
+                              <span style="--i:2">O</span>
+                              <span style="--i:3">R</span>
+                              <span style="--i:4">K</span>
+                              <span style="--i:5">S</span>
+                              CREATED</h5>
+        <div class = "work-content">
+            <div class="work-list swiper-wrapper">
+                <div class="project swiper-slide" >
+                    <img src="images/machinecode.jpg">
+                    <div class="layer">
+                        <h6>Coding Problems</h6>
+                        <p> This contains all the coding problems using C, Java, and Python languages. Codes are mostly written in C language</p>
+                        <a href="https://github.com/Deificz/Coding-Problems-" target="_blank"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="project swiper-slide">
+                    <img src="images/informationsystem.jpg">
+                    <div class="layer">
+                        <h6>Form Information System</h6>
+                        <p> This project is a  Entry of Personal Information System for Employees that was written using Java  and MariaDB for Database Management</p>
+                        <a href="https://github.com/Deificz/Employee-Entry-Information-System" target="_blank"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="project swiper-slide">
+                    <img src="images/peninventory.jpg">
+                    <div class="layer">
+                        <h6>Pen Inventory System</h6>
+                        <p> This project is an inventory system for Pens/Markers that was written using C# and MariaDB for Database Management</p>
+                        <a href="https://github.com/Deificz/Pen-Inventory-System" target="_blank"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="project swiper-slide">
+                    <img src="images/tollgate.jpg">
+                    <div class="layer">
+                        <h6>Toll Gate Prototype System</h6>
+                        <p> This project is a prototype system of a RFID Toll Gate that was written using Java and MariaDB for Database Management </p>
+                        <a href="https://github.com/Deificz/Tollgate-Prototype-System" target="_blank"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="project swiper-slide">
+                    <img src="images/automotive.jpg">
+                    <div class="layer">
+                        <h6>Car Dealership Website</h6>
+                        <p> This project is a sample website for Online Car Dealership using WiX</p>
+                        <a href="https://papsautomotive.wixsite.com/automotive" target="_blank"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="project swiper-slide">
+                    <img src="images/personalwebpage.jpg">
+                    <div class="layer">
+                        <h6>Simple Profile Webpage</h6>
+                        <p> This is a sample profile webpage that was written in HTML and CSS</p>
+                        <a href="https://github.com/Deificz/Simple-Personal-Portfolio-Webpage" target="_blank"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="project swiper-slide">
+                    <img src="images/Survey Information System.jpg">
+                    <div class="layer">
+                        <h6>Survey Information System Website</h6>
+                        <p> This is an Online Survey Form of Online Class that was written in HTML,AdminLTE bootstrap, and phpmyAdmin for Database Management</p>
+                        <a href="https://github.com/Deificz/Survey-Information-System-Website" target="_blank"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+         
+         </div>
+    </div>
+</div>
+
+
+<!--SOCIALS SECTION-->
+<div id="socials">
+    <div class="socials-container swiper">
+        <h6 class="sub-title">CONNECT THRU MY <span>SOCIALS</span></h6>
+        <div class = "social-content">
+            <div class="social-list swiper-wrapper">
+                <div class="medias swiper-slide">
+                    <a href="https://www.linkedin.com/in/aeron-lazo-554346226/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></i></a>
+                </div>
+                <div class="medias swiper-slide">
+                    <a href="https://www.facebook.com/aeronbrylIe/" target="_blank"><i class="fa-brands fa-facebook"></i></i></a>
+                </div>
+                <div class="medias swiper-slide">
+                    <a href="https://twitter.com/aaeerroon" target="_blank"><i class="fa-brands fa-twitter"></i></i></a>
+                </div>
+                <div class="medias swiper-slide">
+                    <a href="https://www.instagram.com/aeronbrylle/?theme=dark" target="_blank"><i class="fa-brands fa-instagram"></i></i></a>
+                </div>
+                <div class="medias swiper-slide">
+                    <a href="https://open.spotify.com/user/22ej37c76imug6djhs7anccya" target="_blank"><i class="fa-brands fa-spotify"></i></i></a>
+                </div>
+                <div class="medias swiper-slide">
+                    <a href="https://steamcommunity.com/id/DeificFate/" target="_blank"><i class="fa-brands fa-steam"></i></i></a>
+                </div>
+         </div>    
+        </div>
+    </div>
+</div>
+
+<!--CONTACTS SECTION-->
+<div id="contacts">
+    <div class="contact-container">
+        <div class="row">
+            <div class="contact-left">
+                <h6 class="sub-title"><span>CONTACT</span> ME</h6>
+                <p><i class="fa-regular fa-envelope"></i></i>aeron_lazo@yahoo.com</p>
+                <p><i class="fa-solid fa-envelope"></i></i>skateraeron@gmail.com</p>
+                <p><i class="fa-solid fa-mobile-screen-button"></i>+639215443342</p>
+                <a href="#" download class="btn btn2">Download CV</a>
+            </div>
+            
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Name" required>
+                    <input type="text" name="Email" placeholder="Email Address" required>
+                    <textarea name="Message" rows="6" placeholder="Message"></textarea>
+                    <button type="submit" class="btn btn2" >Submit</button>
+                </form>
+                <span id="doneMsg"></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="copyright">
+    <p>Developed by Aeron Brylle Lazo using HTML, CSS, & JS</p>
+</div>
+
+<!--ABOUT TABS SCRIPT SECTION-->
+<script>
+    var tablinks= document.getElementsByClassName("tab-links");
+    var tabcontents= document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname)
+    {
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<!--CONTACT FORM SCRIPT SECTION-->
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbz_7NafZ7rVlmwgKxWGe3x1SdzcGTgHst0tyoel8y2RncmDLVl-TseLjwkEovRpdwt8TA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const message = document.getElementById("doneMsg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            message.innerHTML = "Message sent Successfully"
+            setTimeout(function(){
+                message.innerHTML = ""
+            },3000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+<!--CONTACT FORM SCRIPT SECTION-->
+<script>
+    var sideMenu = document.getElementById("sideMenu");
+
+    function openMenu(){
+        sideMenu.style.right = "0";
+    }
+    function closeMenu(){
+        sideMenu.style.right = "-200px";
+    }
+</script>
+</body>
+<script src="swiper-bundle.min.js"></script>
+<script src="script.js"></script>
+</html>
