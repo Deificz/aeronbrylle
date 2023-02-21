@@ -430,20 +430,22 @@ nav ul li a:hover::after{
 }
 
 .medias{
-    margin-left: 65px;
+    margin-left: 80px;
     margin-top: 20px;
     text-decoration: none;
     line-height: 100px;
     background: #262626;
-    border-radius: 10px;
+    border-radius: 30px;
     text-align: center;
-    flex-basis: 20%;
+    flex-basis: 13%;
+    
 }
 
 .medias a{
     color: white;
     transition: scale 0.2s;
-    font-size: 58px;
+    text-align: center;
+    font-size: 60px;
 }
 
 .medias:hover{
