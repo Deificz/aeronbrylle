@@ -227,13 +227,20 @@ nav ul li a:hover::after{
     margin-right: 3%;
 }
 .skills-container h3 span{
-    color:cyan;
-    background-color: #080808;
-    position: relative;
-    display: inline-flex;
-    overflow: hidden;
-    padding-left: 0.5rem;
-    animation: openclose 8s ease-in infinite;
+    margin: 3rem auto;
+    animation: neon 3s ease infinite;
+}
+
+@keyframes neon {
+    0%,
+    100% {
+        text-shadow: 0 0 10px #3bd6c6, 0 0 20px #3bd6c6, 0 0 20px #3bd6c6, 0 0 20px #3bd6c6, 0 0 2px darkcyan, 2px 2px 2px #806914;
+        color: #89ecda;
+    }
+    50% {
+        text-shadow: 0 0 2px #003333, 0 0 5px #003333, 0 0 5px #003333, 0 0 5px #003333, 0 0 2px #003333, 4px 4px 2px #40340a;
+        color: cyan
+    }
 }
 
 .my-skills{
@@ -305,12 +312,14 @@ nav ul li a:hover::after{
     color: cyan;
     position: relative;
     display: inline-block;
-    margin: -2.9px;
     animation: flip 2s infinite;
-    animation-delay: calc(.2s * var(--i))
+    animation-delay: calc(.2s * var(--i));
+    margin-right: -1%;
+    margin-bottom: 50px;
+    
 }
 .work-content{
-    margin-left: 3.5%;
+    margin-left: 1.5%;
     margin-right: -.4%;
 }
 .work-list {
@@ -408,7 +417,7 @@ nav ul li a:hover::after{
 }
 
 @keyframes flip {
-    0%,80% {
+    0%,75% {
       transform: rotateY(360deg) 
     }
   }
