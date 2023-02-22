@@ -4,7 +4,7 @@ var swiper = new Swiper('.social-content', {
   grabCursor: true,
   centeredSlides: true,
   loop: true,
-  slidesPerView: 'auto',
+  slidesPerView: 4,
   coverflowEffect: {
     rotate: 50,
     stretch: 0,

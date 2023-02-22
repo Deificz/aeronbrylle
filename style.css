@@ -142,7 +142,7 @@ nav ul li a:hover::after{
     text-transform: uppercase;
     animation: waviy 1s infinite;
     animation-delay: calc(.1s * var(--i));
-    margin: -7px;
+    margin: -6px;
     margin-bottom: 30px;
 }
 
@@ -612,8 +612,8 @@ nav .fas{
         text-align: center;
     }
     .about-col-2 h2 span{
-
-        margin: -4.5px;
+        margin-bottom: 30px;
+        margin-right: -3px;
 
     }
     .about-col-1, .about-col-2{
