@@ -136,7 +136,8 @@ nav ul li a:hover::after{
 }
 
 .about-col-2 h2 span{
-    color:cyan;
+    color:black;
+    -webkit-text-stroke: 2px cyan;
     position: relative;
     display: inline-block;
     text-transform: uppercase;
@@ -231,6 +232,7 @@ nav ul li a:hover::after{
 .skills-container h3 span{
     margin: 3rem auto;
     animation: neon 3s ease infinite;
+    -webkit-text-stroke: 2px cyan;
 }
 
 @keyframes neon {
@@ -241,7 +243,7 @@ nav ul li a:hover::after{
     }
     50% {
         text-shadow: 0 0 2px #003333, 0 0 5px #003333, 0 0 5px #003333, 0 0 5px #003333, 0 0 2px #003333, 4px 4px 2px #40340a;
-        color: cyan
+        color: black
     }
 }
 
@@ -313,13 +315,13 @@ nav ul li a:hover::after{
     margin-bottom: 40px;
 }
 .works-container h5 span{
-    color: cyan;
+    color: black;
+    -webkit-text-stroke: 2px cyan;
+    display: inline-block;
     position: relative;
-    animation: flip 2s infinite;
-    animation-delay: calc(.2s * var(--i));
+    animation: flip 3s infinite;
+    animation-delay: calc(.3s * var(--i));
     margin-right: -1.2%;
-    margin-bottom: 40px;
-    
 }
 .work-content{
     margin-left: 1.5%;
@@ -414,12 +416,11 @@ nav ul li a:hover::after{
     transition: background 0.5s; 
 }
 
-
 @keyframes flip {
-    0%,75% {
-      transform: rotateY(360deg) 
-    }
-  }
+    0%,70% {
+        transform: rotateX(360deg) 
+      }
+  } 
 /*SOCIALS SECTION*/
 #socials{
     padding:30px 0;
@@ -430,12 +431,13 @@ nav ul li a:hover::after{
 .socials-container h6 span{
   color: cyan;
   overflow: hidden;
-  background: linear-gradient(90deg, #000, cyan, #000);
+  background: linear-gradient(90deg, #000, darkcyan, #000);
   background-repeat: no-repeat;
   background-size: 80%;
   animation: animate 3s linear infinite;
   -webkit-background-clip: text;
   -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  -webkit-text-stroke: 1.5px cyan;
 
 }
 
@@ -496,9 +498,10 @@ nav ul li a:hover::after{
 }
 
 .contact-left h6 span{
-    color: cyan;
+    color: black;
     display: inline-flex;
     animation: shake-anim 1.3s infinite; 
+    -webkit-text-stroke: 1.5px cyan;
 }
 
 .contact-left{
@@ -553,7 +556,7 @@ form .btn2{
     font-weight: 300;
     margin-top: 20px;
 }
-.contact-right h6{
+.contact-right h7{
     font-size: 30px;
     text-align: center;
 }
