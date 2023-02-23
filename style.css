@@ -654,7 +654,9 @@ nav .fas{
 
    .medias{
     flex-basis: 30%;
+    
    }
+
 
    .work-list h6{
     font-size: 12px;
@@ -677,6 +679,7 @@ nav .fas{
     border-radius: 50%;
     text-align: center;
     }
+
     
 }
 
@@ -748,7 +751,9 @@ nav .fas{
 
     .medias{
         flex-basis: 30%;
+        
     }
+
 
     .work-list h6{
         font-size: 12px;

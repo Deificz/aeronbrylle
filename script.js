@@ -2,9 +2,14 @@ var swiper = new Swiper('.social-content', {
     
   effect: 'coverflow',
   grabCursor: true,
-  loop:true,
   slidesPerView: 4,
-  navigation: { nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev' },
+  centeredSlide: true,
+  centeredSlidesBounds: true,
+  navigation: { 
+    nextEl: '.swiper-button-next', 
+    prevEl: '.swiper-button-prev' 
+  },
+  
   coverflowEffect: {
     rotate: 50,
     stretch: 0,
@@ -12,9 +17,7 @@ var swiper = new Swiper('.social-content', {
     modifier: 1,
     slideShadows: true,
   },
-  pagination: {
-    el: '.swiper-pagination',
-  },
+  
   });
 
   var swiper = new Swiper('.work-content', {
