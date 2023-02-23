@@ -5,6 +5,7 @@ var swiper = new Swiper('.social-content', {
   slidesPerView: 4,
   centeredSlide: true,
   centeredSlidesBounds: true,
+  loopFillGroupWithBlank: true,
   navigation: { 
     nextEl: '.swiper-button-next', 
     prevEl: '.swiper-button-prev' 
