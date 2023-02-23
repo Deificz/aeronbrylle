@@ -444,6 +444,8 @@ nav ul li a:hover::after{
     grid-template-columns: repeat(auto-fit,minmax(30px,1fr));
     grid-gap: 1px;
     margin-top: 50px;
+    margin-left: -90px;
+    
 }
 
 .medias{
@@ -468,6 +470,14 @@ nav ul li a:hover::after{
 .medias:hover{
     transform: scale(1.4);
     background: linear-gradient(rgba(0,0,0,1), darkcyan);
+}
+
+.swiper-button-next, .swiper-button-prev{
+    color: darkcyan !important;
+}
+
+.swiper-button-next:hover, .swiper-button-prev:hover{
+    color:white !important;
 }
 
 @keyframes animate {
@@ -667,6 +677,7 @@ nav .fas{
     border-radius: 50%;
     text-align: center;
     }
+    
 }
 
 @media only screen and (max-width:700px){
