@@ -553,7 +553,10 @@ form .btn2{
     font-weight: 300;
     margin-top: 20px;
 }
-
+.contact-right h6{
+    font-size: 30px;
+    text-align: center;
+}
 .contact-right span{
     color:white;
     margin-top: -40px;
