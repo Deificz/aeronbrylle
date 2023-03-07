@@ -19,18 +19,14 @@ body{
     height: 100vh;
     background-image: url(Images/bg.jpg);
     background-size: cover;
+    background-color: black;
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    
 }
-.profilePic{
-    animation: float 5.5s ease-out infinite;
-}
-@keyframes float{
-    50%{
-        transform: translateY(60px);
-    }
-}
+
+
 nav{
     display:flex;
     align-items: center;
@@ -596,6 +592,7 @@ nav .fas{
         font-size:35px;
         margin-left: -5%;
     }
+    
     nav .fas{
         display:block;
         font-size:25px;
@@ -698,6 +695,7 @@ nav .fas{
         margin-left: 90px;
         font-size: 20px;
     }
+    
     .header-text h1{
         font-size:35px;
         margin-left: -5%;
