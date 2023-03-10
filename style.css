@@ -139,7 +139,7 @@ nav ul li a:hover::after{
     text-transform: uppercase;
     animation: waviy 1s infinite;
     animation-delay: calc(.1s * var(--i));
-    margin: -6.8px;
+    margin: -7.3px;
     margin-bottom: 25px;
 }
 
