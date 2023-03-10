@@ -139,7 +139,7 @@ nav ul li a:hover::after{
     text-transform: uppercase;
     animation: waviy 1s infinite;
     animation-delay: calc(.1s * var(--i));
-    margin: -6px;
+    margin: -6.8px;
     margin-bottom: 25px;
 }
 
@@ -427,7 +427,7 @@ nav ul li a:hover::after{
 .socials-container h6 span{
   color: cyan;
   overflow: hidden;
-  background: linear-gradient(90deg, #000, darkcyan, #000);
+  background: linear-gradient(90deg, #000, cyan, #000);
   background-repeat: no-repeat;
   background-size: 80%;
   animation: animate 3s linear infinite;
