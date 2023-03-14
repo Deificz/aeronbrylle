@@ -114,6 +114,7 @@ nav ul li a:hover::after{
     margin-right: 3%;
     color: #ababab;
 }
+
 .row{
     display:flex;
     justify-content: space-between;
@@ -123,7 +124,7 @@ nav ul li a:hover::after{
 .about-col-1 img{
     width:100%;
     border-radius: 25px;
-    margin-left: 40px;
+    margin-left: 80px;
 
 }
 
@@ -632,6 +633,14 @@ nav .fas{
         margin-right: -3px;
 
     }
+
+    .about-col-1 img{
+        width:100%;
+        border-radius: 25px;
+        margin-left: 30px;
+    
+    }
+
     .about-col-1, .about-col-2{
         flex-basis: 100%;
         text-align: center;
