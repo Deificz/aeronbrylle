@@ -264,10 +264,20 @@ nav ul li a:hover::after{
     margin-top: 40px;
 }
 .my-skills h4{
-    font-size: 20px;
+    color: rgb(93, 214, 214);
     font-weight: 500;
     margin-bottom: 15px;
 }
+.my-skills h4{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    
+}
+.my-skills p{
+    font-size: 20px;
+}
+
 .my-skills div{
     background: #262626;
     padding: 40px;
@@ -288,7 +298,7 @@ nav ul li a:hover::after{
     display: inline-block;
 }
 .my-skills div:hover{
-    background: darkcyan;
+    background: linear-gradient(rgba(0,0,0,0.6), darkcyan);
     transform:translateY(-10px)
 }
 
@@ -821,6 +831,7 @@ nav .fas{
         font-size: 25px;
         font-weight: 500;
         margin-bottom: 15px;
+        
     }
     
     .my-skills p{
