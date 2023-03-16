@@ -32,18 +32,17 @@ nav{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-left: 47%;
+    margin-left: 53%;
     
 }
 nav ul li{
     display: inline-block;
     list-style: none;
     margin:30px 30px;
-    
 
 }
 nav ul li a{
-    color:#EDE9E8;
+    color:white;
     text-decoration: none;
     font-size: 25px;
     position: relative;
@@ -123,10 +122,10 @@ nav ul li a:hover::after{
 }
 
 .about-col-1 img{
-    width:550px;
+    width:500px;
     border-radius: 25px;
     margin-top: 150px;
-    margin-left: 115px;
+    margin-left: 90px;
 }
 
 .about-col-2{
@@ -140,7 +139,7 @@ nav ul li a:hover::after{
     border-radius: 50px;
     padding: 30px;
     margin-bottom: 40px;
-    font-size: 25px;
+    font-size: 20px;
 }
 .about-col-2 h2 span{
     color:black;
@@ -168,7 +167,7 @@ nav ul li a:hover::after{
 
 .tab-links{
     margin-right: 50px;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 500;
     cursor: pointer;
     position: relative;
@@ -192,12 +191,12 @@ nav ul li a:hover::after{
 .tab-contents ul li{
     list-style: none;
     margin: 10px 0;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .tab-contents ul li span{
     color: #EDE9E8;;
-    font-size:28px;
+    font-size:23px;
 }
 
 .tab-contents{
@@ -270,13 +269,13 @@ nav ul li a:hover::after{
     margin-bottom: 15px;
 }
 .my-skills h4{
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 500;
     margin-bottom: 15px;
     
 }
 .my-skills p{
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .my-skills div{
@@ -293,7 +292,7 @@ nav ul li a:hover::after{
 }
 .my-skills div a{
     text-decoration: none;
-    color:#EDE9E8;;
+    color:lightgray;
     font-size:17px;
     margin-top:20px;
     display: inline-block;
@@ -482,7 +481,7 @@ nav ul li a:hover::after{
 }
 
 .medias a{
-    color: #EDE9E8;;
+    color: white;
     transition: scale 0.2s;
     text-align: center;
     font-size: 100px;
@@ -598,26 +597,30 @@ form .btn2{
     75% { transform: translateX(5px) }
     100% { transform: translateX(0) }
    }
+
+.copyright{
+    font-size: 25px;
+}
    
 /*RESPONSIVE SECTION */
 nav .fas{
     display: none;
 }
 /*MOBILE SECTION*/
-@media only screen and (min-width:400px) and (max-width:700px){
+@media only screen and (min-width:300px) and (max-width:375px){
     #header{
         background-image: url(Images/phonebg.jpg);
     }
     .header-text{
-        margin-top: 20%;
-        margin-left: 90px;
-        font-size: 20px;
+        margin-top: 30%;
+        margin-left: 85px;
+        font-size: 15px;
         
     }
     .header-text h1{
-        font-size:35px;
-        margin-left: -5%;
-        margin-top: 20px;
+        font-size:25px;
+        margin-left: -8%;
+        margin-top: 10px;
     }
     
     nav .fas{
@@ -663,13 +666,13 @@ nav .fas{
         font-size: 15px;
         padding: 30px;
         margin-bottom: 40px;
-        width:375px;
+        
     }
     .about-col-1 img{
         width:100%;
         margin-top: -50px;
         border-radius: 25px;
-        padding-left: 30px;
+        margin-left: 0px;
     }
     .about-col-1, .about-col-2{
         flex-basis: 100%;
@@ -790,29 +793,224 @@ nav .fas{
     form input, form textarea{
         font-size: 15px;
     }
+    .copyright{
+        font-size: 15px;
+    }
     
 }
-
-/*TABLET SECTION*/
-
-@media only screen and (min-width:710px) and (max-width:900px){
+@media only screen and (min-width:376px) and (max-width:500px){
     #header{
         background-image: url(Images/phonebg.jpg);
     }
     .header-text{
         margin-top: 20%;
-        margin-left: 150px;
-        font-size: 30px;
+        margin-left: 90px;
+        font-size: 15px;
+        
+    }
+    .header-text h1{
+        font-size:30px;
+        margin-left: -18%;
+        margin-top: 20px;
+    }
+    
+    nav .fas{
+        display:block;
+        font-size:25px;
+        margin-top: 10%;
+        margin-left: 80%;
+    }
+    nav ul{
+        background: linear-gradient(rgba(0,0,0,1), darkcyan);
+        position:fixed;
+        top:0;
+        right:-200px;
+        width:200px;
+        height:100vh;
+        padding-top: 50px;
+        transition: right 0.4s;
+    }
+
+    nav ul li{
+        display:block;
+        margin:25px;
+
+    }
+    nav ul .fas{
+        position:absolute;
+        top:25px;
+        left:25px;
+        cursor:pointer;
+        margin-left: 60%;
+    }
+    .row{
+        display:inline;
+        justify-content:center;
+        flex-wrap: nowrap;
+    }
+    .sub-title{
+        font-size: 40px;
+        margin-right: 0px;
+        text-align: center;
+    }
+    .description p{
+        font-size: 15px;
+        padding: 30px;
+        margin-bottom: 40px;
+        
+    }
+    .about-col-1 img{
+        width:100%;
+        margin-top: -50px;
+        border-radius: 25px;
+        margin-left: 0px;
+    }
+    .about-col-1, .about-col-2{
+        flex-basis: 100%;
+        text-align: center;
+    }
+    .about-col-2 h2 span{
+        margin-right: 1px;
+        margin-bottom: 25px;
+    }
+    .about-col-2{
+        font-size: 14px;
+        text-align: center;
+        
+    }
+    .tab-titles{
+        align-items: left;
+        margin-left: 0px; 
+    }
+    .tab-links{
+        font-size: 14px;
+        text-align: left;
+        margin-right: 20px;
+    }
+    .tab-contents{
+        text-align: left;
+        margin-bottom: -100px;
+    }
+    .tab-contents ul li{
+        font-size:12px;
+        margin-left: -50px;
+    }
+    .tab-contents ul li span{
+        color: white;
+        font-size:15px;
+    }
+    
+    .my-skills h4{
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 15px;
+    }
+    .my-skills p{
+        font-size: 15px;
+    }
+    .works-container h5 span{
+        margin-right: -2%;
+    }
+
+   .medias{
+    flex-basis: 30%;
+    
+   }
+   .project img{
+    width:200px;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
+    }
+    .layer{
+        width:190px;
+    }
+   .work-list h6{
+    font-size: 11px;
+    margin-bottom: 3px;
+    margin-top: 15px;
+   }
+   .work-list p{
+    font-size: 10px;
+    text-align: left;
+   }
+   .layer a{
+    margin-top: 10px;
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+    line-height: 30px;
+    background: white;
+    width: 30px;
+    height:30px;
+    border-radius: 50%;
+    text-align: center;
+    }
+    .social-list{
+        display:grid;
+        grid-template-columns: repeat(auto-fit,minmax(30px,1fr));
+        grid-gap: 1px;
+        margin-top: 50px;
+        margin-left: 0px;
+        
+    }
+    .medias{
+        margin-left: 0px;
+        margin-top: 20px;
+        
+        text-decoration: none;
+        line-height: 100px;
+        background: transparent;
+        border-radius: 20px;
+        text-align: center;
+        flex-basis: auto;
+        
+    }
+    .medias a{
+        
+        transition: scale 0.2s;
+        text-align: center;
+        font-size: 50px;
+    }
+    .contact-left, .contact-right{
+        flex-basis: 100%;
+        text-align: center;
+        margin-top: 
+        0px;
+    }
+    .contact-left p{
+        font-size: 15px;
+    }
+    form input, form textarea{
+        font-size: 15px;
+    }
+    .copyright{
+        font-size: 15px;
+    }
+}
+/*TABLET SECTION*/
+
+@media only screen and (min-width:600px) and (max-width:760px){
+    body{
+        overflow-x: hidden;
+    }
+    #header{
+        background-image: url(Images/phonebg.jpg);
+    }
+    .header-text{
+        margin-top: 20%;
+        margin-left: 130px;
+        font-size: 20px;
     }
     
     .header-text h1{
-        font-size:55px;
+        font-size:40px;
         margin-left: -5%;
     }
-
+    
     .about-col-1 img{
         width:500px;
-        margin-left: 50px;
+        margin-left: 40px;
         margin-top: -50px;
     }
 
@@ -858,14 +1056,9 @@ nav .fas{
         margin-left: 60%;
     }
     .sub-title{
-        font-size: 80px;
+        font-size: 60px;
         text-align: center;
     }
-
-    .description p{
-        font-size: 20px;
-    }
-
     .about-col-1, .about-col-2{
         flex-basis: 100%;
         text-align: center;
@@ -873,6 +1066,16 @@ nav .fas{
     .about-col-2{
         font-size: 14px;
         text-align: center;
+    }
+    .about-col-2 h2 span{
+        margin: -7.5px;
+        margin-bottom: 25px;
+    }
+    .description p{
+        font-size: 20px;
+        padding: 20px;
+        margin-bottom: 40px;
+        width:88%;
     }
     .tab-titles{
         align-items: left;
@@ -954,7 +1157,7 @@ nav .fas{
             
     }
     .medias a{
-        color: #EDE9E8;;
+        color: lightgray;
         transition: scale 0.2s;
         text-align: center;
         font-size: 60px;
@@ -970,18 +1173,400 @@ nav .fas{
         text-align: center;
         font-size: 25px;
     }
+    .copyright{
+        font-size: 20px;
+    }
 }
+@media only screen and (min-width:768px) and (max-width:1024px){
+    body{
+        overflow-x: hidden;
+    }
+    #header{
+        background-image: url(Images/phonebg.jpg);
+    }
+    .header-text{
+        margin-top: 20%;
+        margin-left: 180px;
+        font-size: 30px;
+    }
+    
+    .header-text h1{
+        font-size:50px;
+        margin-left: -5%;
+    }
+    
+    .about-col-1 img{
+        width:500px;
+        margin-left: 40px;
+        margin-top: -50px;
+    }
+    nav .fas{
+        display:block;
+        font-size:25px;
+        margin-top: 10%;
+        margin-left: 80%;
+    }
+    nav ul{
+        background: linear-gradient(rgba(0,0,0,1), darkcyan);
+        position:fixed;
+        top:0;
+        right:-200px;
+        width:200px;
+        height:100vh;
+        padding-top: 50px;
+        transition: right 0.4s;
+    }
 
-/*1366 SECTION*/
+    nav ul li{
+        display:block;
+        margin:25px;
 
-@media only screen and (min-width:1366px) and (max-width:1366px){
+    }
+
+    nav ul .fas{
+        position:absolute;
+        top:25px;
+        left:25px;
+        cursor:pointer;
+        margin-left: 60%;
+    }
+    .about-col-2 h2 span{
+        color:black;
+        -webkit-text-stroke: 1.5px cyan;
+        position: relative;
+        display: inline-block;
+        text-transform: uppercase;
+        animation: waviy 1s infinite;
+        animation-delay: calc(.1s * var(--i));
+        margin: -10px;
+        margin-bottom: 25px;
+    }
+    .sub-title{
+        font-size: 60px;
+        text-align: center;
+    }
+
+    .description p{
+        font-size: 20px;
+    }
+
+    .about-col-1, .about-col-2{
+        flex-basis: 100%;
+        text-align: center;
+    }
+    .about-col-2{
+        font-size: 14px;
+        text-align: center;
+    }
+    .about-col-2 h2 span{
+        margin: -7.5px;
+        margin-bottom: 25px;
+    }
+    .description p{
+        font-size: 20px;
+        padding: 20px;
+        margin-bottom: 40px;
+        width:100%;
+    }
+    .tab-titles{
+        align-items: left;
+        margin-left: 0px; 
+    }
+    .tab-links{
+        font-size: 25px;
+        margin-right: 20px;
+        text-align: left;
+    }
+    .tab-contents{
+        text-align: left;
+        margin-bottom: 50px;
+    }
+    .tab-contents ul li{
+        font-size:20px;
+        margin-left: -50px;
+    }
+    .tab-contents ul li span{
+        color: white;
+        font-size:23px;
+    }
+
+    .my-skills h4{
+        font-size: 25px;
+        font-weight: 500;
+        margin-bottom: 15px;
+        
+    }
+    .my-skills p{
+        font-size: 20px;
+    }
+    .works-container h5 span{
+        color: black;
+        -webkit-text-stroke: 1.5px cyan;
+        display: inline-block;
+        position: relative;
+        animation: flip 3s infinite;
+        animation-delay: calc(.3s * var(--i));
+        margin-right: -2.5%;
+    }
+
+    .medias{
+        flex-basis: 30%;
+    }
+    .work-list h6{
+        margin-top: 30px;
+        font-size: 20px;
+        margin-bottom: 10px;
+        
+    }
+    .work-list p{
+        font-size: 19px;
+        text-align: left;
+    }
+    .layer a{
+        margin-top: 10px;
+        color: black;
+        font-size: 30px;
+        text-decoration: none;
+        line-height: 60px;
+        background: white;
+        width: 60px;
+        height:60px;
+        border-radius: 50%;
+        text-align: center;
+        margin-top: 10px;
+        }
+
+    .medias{
+        margin-left: 30px;
+        margin-top: 20px;
+        text-decoration: none;
+        line-height: 100px;
+        background: #262626;
+        border-radius: 30px;
+        text-align: center;
+        flex-basis: 25%;
+            
+    }
+    .medias a{
+        color: lightgray;
+        transition: scale 0.2s;
+        text-align: center;
+        font-size: 60px;
+    }
+    .project{
+        border-radius: 10px;
+        position: relative;
+        overflow: hidden;
+         flex-basis: 50%;
+    }
+    .contact-left, .contact-right{
+        flex-basis: 100%;
+        text-align: center;
+        font-size: 25px;
+    }
+    .copyright{
+        font-size: 20px;
+    }
+}
+@media only screen and (min-width:1024px) and (max-width:1025px){
+    body{
+        overflow-x: hidden;
+    }
+    #header{
+        background-image: url(Images/phonebg.jpg);
+    }
+    .header-text{
+        margin-top: 20%;
+        margin-left: 200px;
+        font-size: 40px;
+    }
+    .header-text h1{
+        font-size:70px;
+        margin-left: -5%;
+    }
+    
+    .about-col-1 img{
+        width:500px;
+        margin-left: 40px;
+        margin-top: -50px;
+    }
+    nav .fas{
+        display:block;
+        font-size:25px;
+        margin-top: 10%;
+        margin-left: 80%;
+    }
+    nav ul{
+        background: linear-gradient(rgba(0,0,0,1), darkcyan);
+        position:fixed;
+        top:0;
+        right:-200px;
+        width:200px;
+        height:100vh;
+        padding-top: 50px;
+        transition: right 0.4s;
+    }
+
+    nav ul li{
+        display:block;
+        margin:25px;
+
+    }
+
+    nav ul .fas{
+        position:absolute;
+        top:25px;
+        left:25px;
+        cursor:pointer;
+        margin-left: 60%;
+    }
+    .about-col-2 h2 span{
+        color:black;
+        -webkit-text-stroke: 1.5px cyan;
+        position: relative;
+        display: inline-block;
+        text-transform: uppercase;
+        animation: waviy 1s infinite;
+        animation-delay: calc(.1s * var(--i));
+        margin: -10px;
+        margin-bottom: 25px;
+    }
+    .sub-title{
+        font-size: 60px;
+        text-align: center;
+    }
+
+    .description p{
+        font-size: 20px;
+    }
+
+    .about-col-1, .about-col-2{
+        flex-basis: 100%;
+        text-align: center;
+    }
+    .about-col-2{
+        font-size: 14px;
+        text-align: center;
+    }
+    .about-col-2 h2 span{
+        margin: -7.5px;
+        margin-bottom: 25px;
+    }
+    .description p{
+        font-size: 20px;
+        padding: 20px;
+        margin-bottom: 40px;
+        width:100%;
+    }
+    .tab-titles{
+        align-items: left;
+        margin-left: 0px; 
+    }
+    .tab-links{
+        font-size: 25px;
+        margin-right: 20px;
+        text-align: left;
+    }
+    .tab-contents{
+        text-align: left;
+        margin-bottom: 50px;
+    }
+    .tab-contents ul li{
+        font-size:20px;
+        margin-left: -50px;
+    }
+    .tab-contents ul li span{
+        color: white;
+        font-size:23px;
+    }
+
+    .my-skills h4{
+        font-size: 25px;
+        font-weight: 500;
+        margin-bottom: 15px;
+        
+    }
+    .my-skills p{
+        font-size: 20px;
+    }
+    .works-container h5 span{
+        color: black;
+        -webkit-text-stroke: 1.5px cyan;
+        display: inline-block;
+        position: relative;
+        animation: flip 3s infinite;
+        animation-delay: calc(.3s * var(--i));
+        margin-right: -2.5%;
+    }
+
+    .medias{
+        flex-basis: 30%;
+    }
+    .work-list h6{
+        margin-top: 30px;
+        font-size: 20px;
+        margin-bottom: 10px;
+        
+    }
+    .work-list p{
+        font-size: 19px;
+        text-align: left;
+    }
+    .layer a{
+        margin-top: 10px;
+        color: black;
+        font-size: 30px;
+        text-decoration: none;
+        line-height: 60px;
+        background: white;
+        width: 60px;
+        height:60px;
+        border-radius: 50%;
+        text-align: center;
+        margin-top: 10px;
+        }
+
+    .medias{
+        margin-left: 30px;
+        margin-top: 20px;
+        text-decoration: none;
+        line-height: 100px;
+        background: #262626;
+        border-radius: 30px;
+        text-align: center;
+        flex-basis: 25%;
+            
+    }
+    .medias a{
+        color: lightgray;
+        transition: scale 0.2s;
+        text-align: center;
+        font-size: 60px;
+    }
+    .project{
+        border-radius: 10px;
+        position: relative;
+        overflow: hidden;
+         flex-basis: 50%;
+    }
+    .contact-left, .contact-right{
+        flex-basis: 100%;
+        text-align: center;
+        font-size: 25px;
+    }
+    .copyright{
+        font-size: 20px;
+    }
+}
+/*1280 SECTION*/
+@media only screen and (min-width:1270px) and (max-width:1350px){
     
     nav{
         display:flex;
         align-items: center;
         justify-content: space-between;
         flex-wrap: wrap;
-        margin-left: 34%;
+        margin-left: 29%;
         
     }
     .header-text{
@@ -997,6 +1582,68 @@ nav .fas{
     }
     .about-col-1 img{
         width:400px;
+        margin-top: 200px;
+        margin-left: 30px;
+    }
+    .sub-title{
+        font-size: 62px;
+        font-weight: 600;
+        color:white;
+    }
+    .description p{
+        font-size: 17.5px;
+    }
+    .tab-links{
+        font-size: 23px;
+    }
+    .tab-contents{
+        margin-bottom: 30px;
+    }
+    .tab-contents ul li{
+        font-size: 18px;
+    }
+    .tab-contents ul li span{
+        font-size:20px;
+    }
+    .contact-left p{
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    form input, form textarea{
+        font-size: 18px;
+        
+    }
+}
+/*1366 SECTION*/
+@media only screen and (min-width:1350px) and (max-width:1367px){
+    
+    nav{
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-left: 41%;
+    }
+    nav ul li a{
+        color:white;
+        text-decoration: none;
+        font-size: 20px;
+        position: relative;
+    }
+    .header-text{
+        font-size: 30px;
+    }
+    .header-text h1{
+        font-size: 50px;
+        
+    }
+    .about-col-2 h2 span{
+        margin: -8px;
+        margin-bottom: 25px;
+    }
+    .about-col-1 img{
+        margin-left: 50px;
+        width:392px;
         margin-top: 200px;
     }
     .sub-title{
@@ -1035,64 +1682,12 @@ nav .fas{
         font-size: 18px;
         
     }
-}
-/*1280 SECTION*/
-@media only screen and (min-width:1280px) and (max-width:1350px){
-    
-    nav{
-        display:flex;
-        align-items: center;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        margin-left: 30%;
-        
-    }
-    .header-text{
-        font-size: 25px;
-    }
-    .header-text h1{
-        font-size: 50px;
-        
-    }
-    .about-col-2 h2 span{
-        margin: -8px;
-        margin-bottom: 25px;
-    }
-    .about-col-1 img{
-        width:435px;
-        margin-top: 200px;
-    }
-    .sub-title{
-        font-size: 62px;
-        font-weight: 600;
-        color:white;
-    }
-    .description p{
-        font-size: 17.5px;
-    }
-    .tab-links{
-        font-size: 23px;
-    }
-    .tab-contents{
-        margin-bottom: 30px;
-    }
-    .tab-contents ul li{
-        font-size: 18px;
-    }
-    .tab-contents ul li span{
-        font-size:20px;
-    }
-    .contact-left p{
-        margin-top: 20px;
+    .copyright{
         font-size: 20px;
     }
-    form input, form textarea{
-        font-size: 18px;
-        
-    }
 }
-/*1280 SECTION*/
-@media only screen and (min-width:1440px) and (max-width:1440px){
+/*1440 SECTION*/
+@media only screen and (min-width:1380px) and (max-width:1440px){
     
     nav{
         display:flex;
@@ -1116,6 +1711,7 @@ nav .fas{
     .about-col-1 img{
         width:500px;
         margin-top: 150px;
+        margin-left: 0px;
     }
     .sub-title{
         font-size: 70px;
@@ -1146,8 +1742,7 @@ nav .fas{
         
     }
 }
-
-/*1280 SECTION*/
+/*1600 SECTION*/
 @media only screen and (min-width:1450px) and (max-width:1600px){
     
     nav{
