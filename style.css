@@ -138,7 +138,7 @@ nav ul li a:hover::after{
     border-radius: 50px;
     padding: 30px;
     margin-bottom: 40px;
-    font-size: 20px;
+    font-size: 25px;
 }
 .about-col-2 h2 span{
     color:black;
@@ -166,7 +166,7 @@ nav ul li a:hover::after{
 
 .tab-links{
     margin-right: 50px;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 500;
     cursor: pointer;
     position: relative;
@@ -190,12 +190,12 @@ nav ul li a:hover::after{
 .tab-contents ul li{
     list-style: none;
     margin: 10px 0;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .tab-contents ul li span{
     color: white;
-    font-size:23px;
+    font-size:28px;
 }
 
 .tab-contents{
@@ -268,13 +268,13 @@ nav ul li a:hover::after{
     margin-bottom: 15px;
 }
 .my-skills h4{
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 500;
     margin-bottom: 15px;
     
 }
 .my-skills p{
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .my-skills div{
@@ -286,13 +286,13 @@ nav ul li a:hover::after{
     transition: background 0.5s, transform 0.5s;
 }
 .my-skills div i{
-    font-size: 60px;
+    font-size: 65px;
     margin-bottom: 30px;
 }
 .my-skills div a{
     text-decoration: none;
     color:white;
-    font-size:12px;
+    font-size:17px;
     margin-top:20px;
     display: inline-block;
 }
@@ -483,7 +483,7 @@ nav ul li a:hover::after{
     color: white;
     transition: scale 0.2s;
     text-align: center;
-    font-size: 60px;
+    font-size: 100px;
 }
 
 .medias:hover{
@@ -573,6 +573,7 @@ form .btn2{
     background-color: #262626;
     font-weight: 300;
     margin-top: 20px;
+    font-size: 30px;
 }
 .contact-right h7{
     font-size: 25px;
