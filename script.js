@@ -18,11 +18,18 @@ var swiper = new Swiper('.social-content', {
     modifier: 1,
     slideShadows: true,
   },
-  
+  320: {
+    slidesPerView: 2,
+    spaceBetween: 1
+  },
+  1280: {
+    slidesPerView: 4,
+    spaceBetween: 10
+  },
   });
 
   var swiper = new Swiper('.work-content', {
-    slidesPerView: 3,
+      slidesPerView: 3,
       spaceBetween: 30,
       freeMode: true,
       loop: true,
@@ -31,4 +38,13 @@ var swiper = new Swiper('.social-content', {
         el: '.swiper-pagination',
         clickable: true,
       },
+      breakpoints: {
+        320: {
+          slidesPerView: 2,
+          spaceBetween: 10
+        },
+        1280: {
+          slidesPerView: 3,
+          spaceBetween: 10
+        },}
   });
