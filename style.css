@@ -536,6 +536,7 @@ nav ul li a:hover::after{
 
 .contact-left p{
     font-size: 25px;
+    margin-bottom: 10px;
 }
 
 .contact-left i{
