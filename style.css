@@ -31,34 +31,46 @@ nav{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-left: 5%;
+    margin-left: 4%;
     margin-top: 1%;
 }
 nav ul li{
     display: inline-block;
     list-style: none;
-    margin:30px 30px;
-
+    margin:30px 20px;
+    height: 100px;
+    width: 150px;
+    overflow:hidden;
 }
 nav ul li a{
     color:white;
+    font-weight: 500;
     text-decoration: none;
     font-size: 25px;
     position: relative;
 }
-nav ul li a::after{
-    content:'';
-    width:0%;
-    height:3px;
-    background: cyan;
-    position:absolute;
-    left:0;
-    bottom:-6px;
-    transition:0.5s;
+nav ul li span{
+    display:flex;
+    height: 100%;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+    border-radius: 15px;
 }
-nav ul li a:hover::after{
-    width: 100%;
+nav ul li span:nth-child(1){
+    color: rgba(0, 255, 255, 0.801);
+    background-color: rgba(255, 255, 255, 0.075);
+    font-size: 45px;
+    border-radius: 15px;
 }
+nav ul li span:nth-child(2){
+    background: linear-gradient(rgba(0,0,0,0.6), darkcyan);
+}
+nav ul li:hover span{
+    transform:  translateY(-100%);
+}
+
 .header-text{
     margin-top: 10%;
     margin-left: 10.5%;
@@ -133,10 +145,8 @@ nav ul li a:hover::after{
     
 }
 .description p{
-    border-style: dotted;
-    border-width: 5px;
-    border-color: darkcyan;
-    border-radius: 50px;
+    border-radius: 20px;
+    border:5px dashed rgba(0, 255, 255, 0.568);
     padding: 30px;
     margin-bottom: 40px;
     font-size: 20px;
@@ -631,10 +641,10 @@ nav .fas{
         display:block;
         font-size:25px;
         margin-top: 10%;
-        margin-left: 80%;
+        margin-left: 90%;
     }
     nav ul{
-        background: linear-gradient(rgba(0,0,0,1), darkcyan);
+        background: linear-gradient(rgba(0,0,0,1), rgb(0, 39, 39));
         position:fixed;
         top:0;
         right:-200px;
@@ -644,11 +654,21 @@ nav .fas{
         transition: right 0.4s;
         z-index: 2;
     }
-
+    
     nav ul li{
         display:block;
         margin:25px;
-
+        height: 50px;
+    }
+    nav ul li span:nth-child(1){
+        font-size: 35px;
+    }
+    nav ul li a{
+        color:white;
+        font-weight: 500;
+        text-decoration: none;
+        font-size: 20px;
+        position: relative;
     }
     nav ul .fas{
         position:absolute;
@@ -823,10 +843,10 @@ nav .fas{
         display:block;
         font-size:25px;
         margin-top: 10%;
-        margin-left: 80%;
+        margin-left: 90%;
     }
     nav ul{
-        background: linear-gradient(rgba(0,0,0,1), darkcyan);
+        background: linear-gradient(rgba(0,0,0,1), rgb(0, 39, 39));
         position:fixed;
         top:0;
         right:-200px;
@@ -840,7 +860,17 @@ nav .fas{
     nav ul li{
         display:block;
         margin:25px;
-
+        height: 75px;
+    }
+    nav ul li span:nth-child(1){
+        font-size: 35px;
+    }
+    nav ul li a{
+        color:white;
+        font-weight: 500;
+        text-decoration: none;
+        font-size: 20px;
+        position: relative;
     }
     nav ul .fas{
         position:absolute;
@@ -1035,10 +1065,10 @@ nav .fas{
         display:block;
         font-size:25px;
         margin-top: 10%;
-        margin-left: 80%;
+        margin-left: 90%;
     }
     nav ul{
-        background: linear-gradient(rgba(0,0,0,1), darkcyan);
+        background: linear-gradient(rgba(0,0,0,1), rgb(0, 39, 39));
         position:fixed;
         top:0;
         right:-200px;
@@ -1052,7 +1082,17 @@ nav .fas{
     nav ul li{
         display:block;
         margin:25px;
-
+        height: 85px;
+    }
+    nav ul li span:nth-child(1){
+        font-size: 35px;
+    }
+    nav ul li a{
+        color:white;
+        font-weight: 500;
+        text-decoration: none;
+        font-size: 20px;
+        position: relative;
     }
 
     nav ul .fas{
@@ -1211,10 +1251,10 @@ nav .fas{
         display:block;
         font-size:25px;
         margin-top: 10%;
-        margin-left: 80%;
+        margin-left: 90%;
     }
     nav ul{
-        background: linear-gradient(rgba(0,0,0,1), darkcyan);
+        background: linear-gradient(rgba(0,0,0,1), rgb(0, 39, 39));
         position:fixed;
         top:0;
         right:-200px;
@@ -1228,7 +1268,6 @@ nav .fas{
     nav ul li{
         display:block;
         margin:25px;
-
     }
 
     nav ul .fas{
@@ -1384,7 +1423,7 @@ nav .fas{
         background-image: url(Images/phonebg.jpg);
     }
     .header-text{
-        margin-top: 20%;
+        margin-top: -3%;
         margin-left: 200px;
         font-size: 40px;
     }
@@ -1402,10 +1441,10 @@ nav .fas{
         display:block;
         font-size:25px;
         margin-top: 10%;
-        margin-left: 80%;
+        margin-left: 90%;
     }
     nav ul{
-        background: linear-gradient(rgba(0,0,0,1), darkcyan);
+        background: linear-gradient(rgba(0,0,0,1), rgb(0, 39, 39));
         position:fixed;
         top:0;
         right:-200px;
@@ -1419,7 +1458,17 @@ nav .fas{
     nav ul li{
         display:block;
         margin:25px;
-
+        height: 90px;
+    }
+    nav ul li span:nth-child(1){
+        font-size: 35px;
+    }
+    nav ul li a{
+        color:white;
+        font-weight: 500;
+        text-decoration: none;
+        font-size: 20px;
+        position: relative;
     }
 
     nav ul .fas{
@@ -1578,6 +1627,22 @@ nav .fas{
         margin-left: 5%;
         margin-top: 1%;
     }
+    nav ul li{
+        display:block;
+        margin:25px;
+        height: 90px;
+    }
+    nav ul li span:nth-child(1){
+        font-size: 35px;
+    }
+    nav ul li a{
+        color:white;
+        font-weight: 500;
+        text-decoration: none;
+        font-size: 20px;
+        position: relative;
+    }
+    
     .header-text{
         font-size: 25px;
     }
@@ -1634,11 +1699,25 @@ nav .fas{
         margin-left: 5%;
         margin-top: 1%;
     }
+    nav ul li{
+        display: inline-block;
+        list-style: none;
+        margin:30px 20px;
+        height: 70px;
+        width: 90px;
+        overflow:hidden;
+    }
     nav ul li a{
         color:white;
         text-decoration: none;
-        font-size: 20px;
+        font-size: 15px;
         position: relative;
+    }
+    nav ul li span:nth-child(1){
+        color: rgba(0, 255, 255, 0.801);
+        background-color: rgba(255, 255, 255, 0.075);
+        font-size: 30px;
+        border-radius: 15px;
     }
     .header-text{
         font-size: 30px;
@@ -1713,6 +1792,26 @@ nav .fas{
         margin-top: 1%;
         
     }
+    nav ul li{
+        display: inline-block;
+        list-style: none;
+        margin:30px 20px;
+        height: 80px;
+        width: 100px;
+        overflow:hidden;
+    }
+    nav ul li a{
+        color:white;
+        text-decoration: none;
+        font-size: 20px;
+        position: relative;
+    }
+    nav ul li span:nth-child(1){
+        color: rgba(0, 255, 255, 0.801);
+        background-color: rgba(255, 255, 255, 0.075);
+        font-size: 30px;
+        border-radius: 15px;
+    }
     .header-text{
         font-size: 30px;
     }
@@ -1768,6 +1867,26 @@ nav .fas{
         flex-wrap: wrap;
         margin-left: 5%;
         margin-top: 1%;
+    }
+    nav ul li{
+        display: inline-block;
+        list-style: none;
+        margin:30px 20px;
+        height: 80px;
+        width: 100px;
+        overflow:hidden;
+    }
+    nav ul li a{
+        color:white;
+        text-decoration: none;
+        font-size: 20px;
+        position: relative;
+    }
+    nav ul li span:nth-child(1){
+        color: rgba(0, 255, 255, 0.801);
+        background-color: rgba(255, 255, 255, 0.075);
+        font-size: 30px;
+        border-radius: 15px;
     }
     .header-text{
         font-size: 30px;
