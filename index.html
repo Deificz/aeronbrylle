@@ -282,8 +282,7 @@
         <div class="row">
             <div class="contact-left">
                 <h6 class="sub-title"><span>CONTACT</span> ME</h6>
-                <p><i class="fa-regular fa-envelope"></i></i>abrlazo@iskolarngbayan.pup.edu.ph</p>
-                <p><i class="fa-solid fa-envelope"></i></i>skateraeron@gmail.com</p>
+                <p><i class="fa-solid fa-envelope"></i></i>aeronbrylle.lazo@gmail.com</p>
                 <p><i class="fa-solid fa-mobile-screen-button"></i>+639215443342</p>
                 <a href="Images/Lazo,Aeron Brylle_Resume.pdf" download class="btn btn2">Download CV</a>
             </div>
@@ -321,39 +320,8 @@
         event.currentTarget.classList.add("active-link");
         document.getElementById(tabname).classList.add("active-tab");
     }
-</script>
-
-<!--CONTACT FORM SCRIPT SECTION-->
-<script>
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbz_7NafZ7rVlmwgKxWGe3x1SdzcGTgHst0tyoel8y2RncmDLVl-TseLjwkEovRpdwt8TA/exec'
-    const form = document.forms['submit-to-google-sheet']
-    const message = document.getElementById("doneMsg")
-    form.addEventListener('submit', e => {
-      e.preventDefault()
-      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-        .then(response => {
-            message.innerHTML = "Message sent Successfully"
-            setTimeout(function(){
-                message.innerHTML = ""
-            },3000)
-            form.reset()
-        })
-        .catch(error => console.error('Error!', error.message))
-    })
-  </script>
-
-<!--MENU SCRIPT SECTION-->
-<script>
-    var sideMenu = document.getElementById("sideMenu");
-
-    function openMenu(){
-        sideMenu.style.right = "0";
-    }
-    function closeMenu(){
-        sideMenu.style.right = "-200px";
-    }
-</script>
-</body>
+    </script>
+    </body>
 </html>
 
 <script src="swiper-bundle.min.js"></script>
