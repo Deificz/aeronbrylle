@@ -235,7 +235,12 @@ nav ul li:hover span{
 .tab-contents a:hover{
     color: cyan
 }
-
+.logos{
+    height: 60px;
+    width: auto;
+    margin: 15px 20px 10px 0px ;
+    
+}
 @keyframes waviy {
     0%,40%,100% {
       transform: translateY(0)
@@ -252,6 +257,7 @@ nav ul li:hover span{
     margin-left: 3%;
     margin-right: 3%;
     margin-bottom: 85px;
+    margin-top: 380px;
 }
 .skills-container h3 span{
     margin: 3rem auto;
