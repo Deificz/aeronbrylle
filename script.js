@@ -63,7 +63,6 @@ var swiper = new Swiper('.social-content', {
       slidesPerView: 3,
       spaceBetween: 30,
       freeMode: true,
-      loop: true,
       grabCursor: true,
       pagination: {
         el: '.swiper-pagination',
