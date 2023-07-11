@@ -479,6 +479,7 @@ nav ul li:hover span{
   animation: animate 3s linear infinite;
   -webkit-text-fill-color: rgba(255, 255, 255, 0);
   -webkit-text-stroke: 1.5px cyan;
+  -webkit-background-clip: text;
 }
 
 .social-list{
