@@ -257,7 +257,7 @@ nav ul li:hover span{
     margin-left: 3%;
     margin-right: 3%;
     margin-bottom: 85px;
-    margin-top: 380px;
+    margin-top: 300px;
 }
 .skills-container h3 span{
     margin: 3rem auto;
@@ -467,7 +467,7 @@ nav ul li:hover span{
     padding:30px 0;
     margin-left: 3%;
     margin-right: 3%;
-    margin-bottom: 80px;
+    margin-bottom: 5px;
 }
 
 .socials-container h6 span{
@@ -630,7 +630,7 @@ nav .fas{
     display: none;
 }
 /*MOBILE SECTION*/
-@media only screen and (min-width:300px) and (max-width:375px){
+@media only screen and (min-width:300px) and (max-width:376px){
     #header{
         background-image: url(Images/phonebg.jpg);
     }
@@ -742,7 +742,9 @@ nav .fas{
         color: white;
         font-size:15px;
     }
-    
+    .skills-container{
+        margin-top: 200px;
+    }
     .my-skills h4{
         font-size: 18px;
         font-weight: 500;
@@ -944,7 +946,9 @@ nav .fas{
         color: white;
         font-size:15px;
     }
-    
+    .skills-container{
+        margin-top: 200px;
+    }
     .my-skills h4{
         font-size: 18px;
         font-weight: 500;
@@ -1033,6 +1037,7 @@ nav .fas{
         font-size: 15px;
     }
 }
+
 /*TABLET SECTION*/
 
 @media only screen and (min-width:600px) and (max-width:760px){
