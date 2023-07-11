@@ -15,7 +15,7 @@ const scriptURL = 'https://script.google.com/macros/s/AKfycbz_7NafZ7rVlmwgKxWGe3
         .catch(error => console.error('Error!', error.message))
     })
 
-//MENU SCRIPT SECTION
+//MENU SECTION ANIMATION
 var sideMenu = document.getElementById("sideMenu");
 
     function openMenu(){
@@ -25,7 +25,10 @@ var sideMenu = document.getElementById("sideMenu");
         sideMenu.style.right = "-200px";
     }
 
-//PROJECT UI SCRIPT
+//ON-SCROLL ANIMATION 
+AOS.init();
+
+//PROJECT ANIMATION 
 var swiper = new Swiper('.social-content', {
     
   effect: 'coverflow',
