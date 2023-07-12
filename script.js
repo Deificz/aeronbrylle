@@ -1,5 +1,3 @@
-//ON-SCROLL ANIMATION 
-AOS.init();
 
 //MENU SECTION ANIMATION
 var sideMenu = document.getElementById("sideMenu");
