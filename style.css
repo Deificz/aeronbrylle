@@ -631,7 +631,7 @@ nav .fas{
     display: none;
 }
 /*MOBILE SECTION*/
-@media only screen and (min-width:300px) and (max-width:376px){
+@media only screen and (min-width:300px) and (max-width:375px){
     #header{
         background-image: url(Images/phonebg.jpg);
     }
@@ -640,6 +640,9 @@ nav .fas{
         margin-left: 85px;
         font-size: 15px;
         
+    }
+    .header-text p{
+        margin-left: 30%;
     }
     .header-text h1{
         font-size:25px;
@@ -729,7 +732,7 @@ nav .fas{
     .tab-links{
         font-size: 14px;
         text-align: left;
-        margin-right: 20px;
+        margin-right: 10px;
     }
     .tab-contents{
         text-align: left;
@@ -844,6 +847,9 @@ nav .fas{
         margin-left: 90px;
         font-size: 15px;
         
+    }
+    .header-text p{
+        margin-left: 20%;
     }
     .header-text h1{
         font-size:30px;
