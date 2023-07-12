@@ -1,19 +1,5 @@
-//FORM SCRIPT
-const scriptURL = 'https://script.google.com/macros/s/AKfycbz_7NafZ7rVlmwgKxWGe3x1SdzcGTgHst0tyoel8y2RncmDLVl-TseLjwkEovRpdwt8TA/exec'
-    const form = document.forms['submit-to-google-sheet']
-    const message = document.getElementById("doneMsg")
-    form.addEventListener('submit', e => {
-      e.preventDefault()
-      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-        .then(response => {
-            message.innerHTML = "Message sent Successfully"
-            setTimeout(function(){
-                message.innerHTML = ""
-            },3000)
-            form.reset()
-        })
-        .catch(error => console.error('Error!', error.message))
-    })
+//ON-SCROLL ANIMATION 
+AOS.init();
 
 //MENU SECTION ANIMATION
 var sideMenu = document.getElementById("sideMenu");
@@ -40,9 +26,6 @@ var tabcontents= document.getElementsByClassName("tab-contents");
         event.currentTarget.classList.add("active-link");
         document.getElementById(tabname).classList.add("active-tab");
     }
-
-//ON-SCROLL ANIMATION 
-AOS.init();
 
 //PROJECT ANIMATION 
 var swiper = new Swiper('.social-content', {
@@ -94,3 +77,20 @@ var swiper = new Swiper('.social-content', {
           spaceBetween: 10
         },}
   });
+
+//FORM SCRIPT
+const scriptURL = 'https://script.google.com/macros/s/AKfycbz_7NafZ7rVlmwgKxWGe3x1SdzcGTgHst0tyoel8y2RncmDLVl-TseLjwkEovRpdwt8TA/exec'
+const form = document.forms['submit-to-google-sheet']
+const message = document.getElementById("doneMsg")
+form.addEventListener('submit', e => {
+  e.preventDefault()
+  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+    .then(response => {
+        message.innerHTML = "Message sent Successfully"
+        setTimeout(function(){
+            message.innerHTML = ""
+        },3000)
+        form.reset()
+    })
+    .catch(error => console.error('Error!', error.message))
+})
