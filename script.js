@@ -1,3 +1,4 @@
+//LOAD ANIMATION
 
 //MENU SECTION ANIMATION
 var sideMenu = document.getElementById("sideMenu");
