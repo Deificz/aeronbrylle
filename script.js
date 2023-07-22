@@ -1,4 +1,8 @@
 //LOAD ANIMATION
+$(window).on("load",function(){
+  $(".loader-wrapper").fadeOut("slow");
+  $("body").removeClass("preload");
+});
 
 //MENU SECTION ANIMATION
 var sideMenu = document.getElementById("sideMenu");
