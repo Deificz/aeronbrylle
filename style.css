@@ -593,6 +593,7 @@ nav ul li:hover span{
 .btn.btn2{
     display:inline-block;
     background: darkcyan;
+    cursor: pointer;
 }
 
 .contact-right form{
