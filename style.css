@@ -61,6 +61,11 @@ nav{
     flex-wrap: wrap;
     margin-left: 4%;
     margin-top: 1%;
+    
+}
+
+nav ul{
+    z-index: 1;
 }
 nav ul li{
     display: inline-block;
@@ -69,16 +74,33 @@ nav ul li{
     height: 100px;
     width: 150px;
     overflow:hidden;
+    
 }
+
 nav ul li a{
     color:white;
-    font-weight: 700;
     text-decoration: none;
     font-size: 23px;
     position: relative;
     display: block;
-    padding: 30px;
+    padding: 2rem;
+    font-weight: 500;
+    transition: all .2s ease-in-out;
+    background-color: black;
 }
+
+nav ul li a:hover{
+    color: cyan;
+    text-shadow: 0 0 7px #fff,
+    0 0 10px #000,
+    0 0 21px cyan,
+    0 0 42px cyan,
+    0 0 82px cyan,
+    0 0 92px cyan,
+    0 0 102px cyan,
+    0 0 151px cyan;
+}
+
 nav ul li span{
     display:flex;
     height: 100%;
@@ -88,19 +110,16 @@ nav ul li span{
     transition: .5s;
     border-radius: 15px;
 }
-nav ul li span:nth-child(1){
-    color: rgba(0, 255, 255, 0.801);
-    background-color: rgba(255, 255, 255, 0.075);
-    font-size: 45px;
-    border-radius: 15px;
 
-}
-nav ul li span:nth-child(2){
-    background: linear-gradient(rgba(0,0,0,0.6), darkcyan);
-}
-nav ul li:hover span{
-    transform:  translateY(-100%);
-}
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #080808;
+    border-bottom-right-radius: 20px;
+    transition: all .5s ease-in-out;
+  }
 
 .header-text{
     margin-top: 10%;
@@ -126,29 +145,7 @@ nav ul li:hover span{
 	-webkit-text-stroke: 2px cyan;
     animation: fade-in-anim 3.5s;
 }
-@keyframes fade-in-anim{
-    0%{
-        opacity: 0;
-    }
-    100%{
-        opacity:100;
-    }
-}
-@keyframes slide-in-anim {
-	20% {
-		opacity: 0;
-	}
-	60% {
-		transform: translateX(-45%);
-	}
-	75% {
-		transform: translateX(-52%);
-	}
-	100% {
-		opacity: 1;
-		transform: translateX(-50%);
-	}
-}
+
 /*ABOUT SECTION*/
 #about{
     padding: 80px 0;
