@@ -106,15 +106,7 @@ nav ul li a:hover{
 }
 
 
-.sticky {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: #080808;
-    border-bottom-right-radius: 20px;
-    transition: all .5s ease-in-out;
-  }
+
 
 .header-text{
     margin-top: 10%;
@@ -1659,7 +1651,16 @@ nav .fas{
 }
 /*1280 SECTION*/
 @media only screen and (min-width:1270px) and (max-width:1350px){
-    
+    .sticky {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: #080808;
+        border-bottom-right-radius: 20px;
+        transition: all .5s ease-in-out;
+      }
+
     nav{
         display:flex;
         align-items: center;
@@ -1731,7 +1732,16 @@ nav .fas{
 }
 /*1366 SECTION*/
 @media only screen and (min-width:1350px) and (max-width:1367px){
-    
+    .sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #080808;
+    border-bottom-right-radius: 20px;
+    transition: all .5s ease-in-out;
+  }
+
     nav{
         display:flex;
         align-items: center;
@@ -1823,7 +1833,15 @@ nav .fas{
 }
 /*1440 SECTION*/
 @media only screen and (min-width:1380px) and (max-width:1440px){
-    
+    .sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #080808;
+    border-bottom-right-radius: 20px;
+    transition: all .5s ease-in-out;
+  }
     nav{
         display:flex;
         align-items: center;
@@ -1900,7 +1918,15 @@ nav .fas{
 }
 /*1600 SECTION*/
 @media only screen and (min-width:1450px) and (max-width:1600px){
-    
+    .sticky {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: #080808;
+        border-bottom-right-radius: 20px;
+        transition: all .5s ease-in-out;
+      }
     nav{
         display:flex;
         align-items: center;
@@ -1972,4 +1998,16 @@ nav .fas{
         font-size: 18px;
         
     }
+}
+
+@media only screen and (min-width:1910px) and (max-width:4000px){
+    .sticky {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: #080808;
+        border-bottom-right-radius: 20px;
+        transition: all .5s ease-in-out;
+      }
 }
