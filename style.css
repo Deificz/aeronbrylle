@@ -119,7 +119,7 @@ nav ul li a:hover{
 	padding: 0;
 	margin-left: 15.5%;
 	transform: translateX(-200%);
-	opacity: 0;
+	opacity: 100;
     animation: slide-in-anim 1.5s ease-out forwards;
 }
 .header-text h1{
@@ -131,6 +131,30 @@ nav ul li a:hover{
     color: black;
 	-webkit-text-stroke: 2px cyan;
     animation: fade-in-anim 3.5s;
+}
+
+@keyframes fade-in-anim{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity:100;
+    }
+}
+@keyframes slide-in-anim {
+	20% {
+		opacity: 0;
+	}
+	60% {
+		transform: translateX(-45%);
+	}
+	75% {
+		transform: translateX(-52%);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(-50%);
+	}
 }
 
 /*ABOUT SECTION*/
