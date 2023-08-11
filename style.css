@@ -645,7 +645,7 @@ nav .fas{
 /*MOBILE SECTION*/
 @media only screen and (min-width:300px) and (max-width:375px){
     #header{
-        background-image: url(Images/main/phonebg.jpg);
+        background-image: url(Images/main/phonebg.gif);
     }
     .header-text{
         margin-top: 30%;
@@ -852,7 +852,7 @@ nav .fas{
 }
 @media only screen and (min-width:376px) and (max-width:500px){
     #header{
-        background-image: url(Images/main/phonebg.jpg);
+        background-image: url(Images/main/phonebg.gif);
     }
     .header-text{
         margin-top: 20%;
@@ -1064,7 +1064,7 @@ nav .fas{
         overflow-x: hidden;
     }
     #header{
-        background-image: url(Images/main/phonebg.jpg);
+        background-image: url(Images/main/phonebg.gif);
     }
     .header-text{
         margin-top: 20%;
@@ -1262,7 +1262,7 @@ nav .fas{
         overflow-x: hidden;
     }
     #header{
-        background-image: url(Images/main/phonebg.jpg);
+        background-image: url(Images/main/phonebg.gif);
     }
     .header-text{
         margin-top: 20%;
@@ -1453,7 +1453,7 @@ nav .fas{
         overflow-x: hidden;
     }
     #header{
-        background-image: url(Images/main/phonebg.jpg);
+        background-image: url(Images/main/phonebg.gif);
     }
     .header-text{
         margin-top: -3%;
