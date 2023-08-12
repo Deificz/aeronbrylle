@@ -7,7 +7,7 @@ window.addEventListener('scroll', function() {
   if (offset > 50) {
     ul.classList.add('sticky');
 
-  } else {
+  } else if (offset == 0){
     ul.classList.remove('sticky');
   }
 });
