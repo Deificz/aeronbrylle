@@ -193,24 +193,37 @@ nav ul li a:hover{
     margin-bottom: 25px;
 }
 
+.info-container{
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: .3fr 1fr;
+    
+}
+
 .sub-title{
     font-size: 80px;
     font-weight: 600;
     color:white;
-}
-
-.tab-titles{
-    display:flex;
-    margin-bottom: 50px;
     
 }
 
+.tab-titles{
+    padding-top: 2rem;
+    display:flex;
+    margin-bottom: 50px;
+    flex-direction: column;
+    border-radius: 50px;
+    border-right: 2px dashed darkcyan;
+}
+
 .tab-links{
-    margin-right: 50px;
+    margin-bottom: 5rem;
     font-size: 25px;
     font-weight: 500;
     cursor: pointer;
     position: relative;
+    color: rgb(252, 252, 252);
+    
 }
 
 .tab-links::after{
@@ -236,11 +249,14 @@ nav ul li a:hover{
 .tab-contents ul li span{
     color: #EDE9E8;
     font-size:23px;
+    
 }
 
 .tab-contents{
+    padding-top: 2rem;
     display:none;
     height: 330px;
+    margin-left: 2rem;
 }
 
 .tab-contents.active-tab{
@@ -772,7 +788,7 @@ nav .fas{
         font-size:15px;
     }
     .skills-container{
-        margin-top: 200px;
+        margin-top: 350px;
     }
     .my-skills h4{
         font-size: 18px;
@@ -977,9 +993,11 @@ nav .fas{
         color: white;
         font-size:15px;
     }
+    
     .skills-container{
-        margin-top: 200px;
+        margin-top: 250px; 
     }
+    
     .my-skills h4{
         font-size: 18px;
         font-weight: 500;
