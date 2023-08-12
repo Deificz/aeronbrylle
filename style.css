@@ -256,7 +256,7 @@ nav ul li a:hover{
     padding-top: 2rem;
     display:none;
     height: 330px;
-    margin-left: 2rem;
+    margin-left: 50px;
 }
 
 .tab-contents.active-tab{
@@ -879,7 +879,7 @@ nav .fas{
     }
     
 }
-@media only screen and (min-width:376px) and (max-width:500px){
+@media only screen and (min-width:376px) and (max-width:599px){
     #header{
         background-image: url(Images/main/phonebg.gif);
     }
@@ -1089,7 +1089,7 @@ nav .fas{
 
 /*TABLET SECTION*/
 
-@media only screen and (min-width:600px) and (max-width:760px){
+@media only screen and (min-width:600px) and (max-width:767px){
     body{
         overflow-x: hidden;
     }
@@ -1477,7 +1477,7 @@ nav .fas{
         font-size: 20px;
     }
 }
-@media only screen and (min-width:1024px) and (max-width:1025px){
+@media only screen and (min-width:1024px) and (max-width:1269px){
     body{
         overflow-x: hidden;
     }
@@ -1750,7 +1750,7 @@ nav .fas{
     }
 }
 /*1366 SECTION*/
-@media only screen and (min-width:1350px) and (max-width:1367px){
+@media only screen and (min-width:1350px) and (max-width:1379px){
 
     nav{
         display:flex;
@@ -1842,7 +1842,7 @@ nav .fas{
     }
 }
 /*1440 SECTION*/
-@media only screen and (min-width:1380px) and (max-width:1440px){
+@media only screen and (min-width:1380px) and (max-width:1449px){
     
     nav{
         display:flex;
