@@ -694,10 +694,19 @@ nav .fas{
     }
     
     nav .fas{
+        position: fixed;
+        padding: 5px;
+        z-index: 1;
+        left: 0;
+        top: 0;
         display:block;
         font-size:25px;
         margin-top: 10%;
-        margin-left: 90%;
+        margin-left: 91%;
+    }
+
+    nav .fa-bars{
+        background-color: rgb(61, 61, 61);
     }
     nav ul{
         background: linear-gradient(rgba(0,0,0,1), rgb(0, 39, 39));
@@ -901,10 +910,19 @@ nav .fas{
     }
     
     nav .fas{
+        position: fixed;
+        padding: 5px;
+        z-index: 1;
+        left: 0;
+        top: 0;
         display:block;
         font-size:25px;
         margin-top: 10%;
-        margin-left: 90%;
+        margin-left: 91%;
+    }
+
+    nav .fa-bars{
+        background-color: rgb(61, 61, 61);
     }
     nav ul{
         background: linear-gradient(rgba(0,0,0,1), rgb(0, 39, 39));
@@ -1127,10 +1145,19 @@ nav .fas{
         margin-bottom: 25px;
     }
     nav .fas{
+        position: fixed;
+        padding: 5px;
+        z-index: 1;
+        left: 0;
+        top: 0;
         display:block;
         font-size:25px;
         margin-top: 10%;
-        margin-left: 90%;
+        margin-left: 91%;
+    }
+
+    nav .fa-bars{
+        background-color: rgb(61, 61, 61);
     }
     nav ul{
         background: linear-gradient(rgba(0,0,0,1), rgb(0, 39, 39));
@@ -1313,10 +1340,19 @@ nav .fas{
         margin-top: -50px;
     }
     nav .fas{
+        position: fixed;
+        padding: 5px;
+        z-index: 1;
+        left: 0;
+        top: 0;
         display:block;
         font-size:25px;
         margin-top: 10%;
-        margin-left: 90%;
+        margin-left: 91%;
+    }
+
+    nav .fa-bars{
+        background-color: rgb(61, 61, 61);
     }
     nav ul{
         background: linear-gradient(rgba(0,0,0,1), rgb(0, 39, 39));
@@ -1502,10 +1538,19 @@ nav .fas{
         margin-top: -50px;
     }
     nav .fas{
+        position: fixed;
+        padding: 5px;
+        z-index: 1;
+        left: 0;
+        top: 0;
         display:block;
         font-size:25px;
         margin-top: 10%;
-        margin-left: 90%;
+        margin-left: 91%;
+    }
+
+    nav .fa-bars{
+        background-color: rgb(61, 61, 61);
     }
     nav ul{
         background: linear-gradient(rgba(0,0,0,1), rgb(0, 39, 39));
