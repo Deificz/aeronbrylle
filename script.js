@@ -44,8 +44,24 @@ var tabcontents= document.getElementsByClassName("tab-contents");
         document.getElementById(tabname).classList.add("active-tab");
     }
 
-//PROJECT ANIMATION 
+//PROJECT AND SOCIAL ANIMATION 
 const slideAnim = (() => {
+  let stacks = document.querySelectorAll('.stack');
+  
+  stacks.forEach( stack => {
+    stack.addEventListener('click', () => {
+      if(stack.classList.contains('projectDesc')){
+        stack.classList.remove('projectDesc');
+        stack.classList.add('stack-shake')
+      }
+       
+      else{
+        stack.classList.add('projectDesc');
+        stack.classList.remove('stack-shake');
+      }
+    })
+  })
+
   var swiper = new Swiper('.social-content', {
     
     effect: 'coverflow',
