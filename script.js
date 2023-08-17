@@ -60,6 +60,7 @@ const slideAnim = (() => {
         stack.classList.remove('stack-shake');
       }
     })
+    
   })
 
   var swiper = new Swiper('.social-content', {

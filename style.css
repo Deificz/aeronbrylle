@@ -289,11 +289,6 @@ nav ul li a:hover {
     font-weight: 500;
     margin-bottom: 15px;
 }
-.my-skills h4 {
-    font-size: 25px;
-    font-weight: 500;
-    margin-bottom: 5px;
-}
 .my-skills p {
     font-size: 20px;
 }
@@ -464,7 +459,7 @@ nav ul li a:hover {
     -webkit-backdrop-filter: blur( 4px );
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
-    margin-bottom: 34px;
+    margin: 10px 0 44px 15px;
     padding: 5px;
     cursor: pointer;
 }
@@ -472,7 +467,22 @@ nav ul li a:hover {
 .tech{
     margin: 0 10px;
     font-size: 50px;
-    
+  
+}
+
+.more{
+    color: rgb(136, 135, 135);
+    margin: 0 15px;
+    font-size: 20px;
+}
+
+.stack:hover .more {
+    color: rgb(80, 79, 79);
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px rgb(0, 255, 229),
+    0 0 10px rgb(0, 255, 229),
+    0 0 12px rgb(0, 255, 229);
 }
 
 .projectDesc ~ img {
@@ -482,7 +492,7 @@ nav ul li a:hover {
     height: 87%;
 }
 .stack-shake{
-    animation: shake 1s infinite;
+    animation: shake 3s infinite;
 }
 
 @keyframes flip {
@@ -491,21 +501,11 @@ nav ul li a:hover {
    };
 }
 @keyframes shake{
-    10%, 90% {
-        transform: translate3d(-1px, 0, 0);
-      }
-      
-      20%, 80% {
-        transform: translate3d(2px, 0, 0);
-      }
-    
-      30%, 50%, 70% {
-        transform: translate3d(-4px, 0, 0);
-      }
-    
-      40%, 60% {
-        transform: translate3d(4px, 0, 0);
-      }
+    0% { transform: translate(0, 0) rotate(0deg); }
+    25% { transform: translate(5px, 5px) rotate(5deg); }
+    50% { transform: translate(0, 0) rotate(0eg); }
+    75% { transform: translate(-5px, 5px) rotate(-5deg); }
+    100% { transform: translate(0, 0) rotate(0deg); }
 }
 
 /*SOCIALS SECTION*/
@@ -680,6 +680,9 @@ nav .fas {
     .tech{
         font-size: 15px;
     }
+    .more{
+        font-size: 9px;
+        }
 }
 @media only screen and (min-width:300px) and (max-width:375px) {
     #header {
