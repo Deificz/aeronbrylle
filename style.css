@@ -464,14 +464,14 @@ nav ul li a:hover {
 }
 
 .tech{
-    margin: 0 10px;
+    margin: 0 5px;
     font-size: 50px;
   
 }
 
 .more{
     color: rgb(136, 135, 135);
-    margin: 0 15px;
+    margin: 0 10px;
     font-size: 20px;
     transition: all 0.25s ease-in-out;
 }
@@ -535,11 +535,13 @@ nav ul li a:hover {
     margin-left: -90px;
 }
 .medias {
+    padding-top: 10px;
     margin-left: 80px;
     margin-top: 20px;
     text-decoration: none;
     line-height: 100px;
-    background: transparent;
+    background: rgba( 33, 33, 33, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba(31, 131, 135, 0.667);
     border-radius: 30px;
     text-align: center;
     flex-basis: 13%;
@@ -547,7 +549,6 @@ nav ul li a:hover {
 .medias a {
     color: white;
     transition: scale 0.2s;
-    text-align: center;
     font-size: 100px;
 }
 .medias:hover {
@@ -860,7 +861,6 @@ nav .fas {
         margin-top: 20px;
         text-decoration: none;
         line-height: 100px;
-        background: transparent;
         border-radius: 20px;
         text-align: center;
         flex-basis: auto;
@@ -1057,7 +1057,6 @@ nav .fas {
         margin-top: 20px;
         text-decoration: none;
         line-height: 100px;
-        background: transparent;
         border-radius: 20px;
         text-align: center;
         flex-basis: auto;
@@ -1249,7 +1248,6 @@ nav .fas {
         margin-top: 20px;
         text-decoration: none;
         line-height: 100px;
-        background: #262626;
         border-radius: 30px;
         text-align: center;
         flex-basis: 25%;
@@ -1434,7 +1432,6 @@ nav .fas {
         margin-top: 20px;
         text-decoration: none;
         line-height: 100px;
-        background: #262626;
         border-radius: 30px;
         text-align: center;
         flex-basis: 25%;
@@ -1631,7 +1628,6 @@ nav .fas {
         margin-top: 20px;
         text-decoration: none;
         line-height: 100px;
-        background: #262626;
         border-radius: 30px;
         text-align: center;
         flex-basis: 25%;

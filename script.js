@@ -132,10 +132,3 @@ const formScript = (() => {
       .catch(error => console.error('Error!', error.message))
   })
 })();
-
-//TEMPORARY
-const btnResume = document.querySelector(`.btnResume`);
-
-btnResume.addEventListener(`click`, () => {
-  alert(`Still working on it :)`);
-})
