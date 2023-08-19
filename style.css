@@ -1988,4 +1988,7 @@ nav .fas {
     .projectDesc ~ .layer {
         height: 90%;
    }
+   .contact-left h6 span {
+    margin-bottom: 40px;
+}
 }
