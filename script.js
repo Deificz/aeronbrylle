@@ -132,3 +132,7 @@ const formScript = (() => {
       .catch(error => console.error('Error!', error.message))
   })
 })();
+
+
+//
+document.querySelector('.resume').addEventListener('click', () => alert('Request a Résumé through my LinkedIn :)'))
