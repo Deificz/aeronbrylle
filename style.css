@@ -366,7 +366,7 @@ nav ul li a:hover {
     position: relative;
     animation: flip 3s infinite;
     animation-delay: calc(.3s * var(--i));
-    margin-right: -1.5%;
+    margin-right: -1.4%;
 }
 .work-content {
     margin-left: 1.5%;
