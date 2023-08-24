@@ -300,6 +300,9 @@ nav ul li a:hover {
     border-radius: 20px;
     transition: background 0.7s, transform 0.7s;
     border-top: 2px solid #808080;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 .my-skills div i {
     font-size: 65px;
@@ -363,7 +366,7 @@ nav ul li a:hover {
     position: relative;
     animation: flip 3s infinite;
     animation-delay: calc(.3s * var(--i));
-    margin-right: -1.2%;
+    margin-right: -1.5%;
 }
 .work-content {
     margin-left: 1.5%;
@@ -379,7 +382,7 @@ nav ul li a:hover {
     position: relative;
     overflow: hidden;
 }
-.project img {
+.project-img {
     width: 95%;
     border-radius: 10px;
     display: block;
@@ -472,6 +475,10 @@ nav ul li a:hover {
 .tech{
     margin: 0 5px;
     font-size: 50px;
+}
+.tailwind{
+    height: 30px;
+    filter: brightness(0) invert(1)
 }
 .more{
     color: rgb(136, 135, 135);
@@ -692,6 +699,10 @@ nav .fas {
     .more{
         font-size: 9px;
    }
+   .tailwind{
+        height: 15px;
+        width: auto;
+   }
 }
 @media only screen and (min-width:300px) and (max-width:375px) {
     #header {
@@ -822,12 +833,12 @@ nav .fas {
         font-size: 15px;
    }
     .works-container h5 span {
-        margin-right: -2%;
+        margin-right: -3%;
    }
     .medias {
         flex-basis: 30%;
    }
-    .project img {
+    .project-img {
         width: 200px;
         border-radius: 10px;
         display: block;
@@ -1020,12 +1031,12 @@ nav .fas {
         font-size: 15px;
    }
     .works-container h5 span {
-        margin-right: -2%;
+        margin-right: -3%;
    }
     .medias {
         flex-basis: 30%;
    }
-    .project img {
+    .project-img {
         width: 200px;
         border-radius: 10px;
         display: block;
@@ -1088,6 +1099,14 @@ nav .fas {
    }
 }
 /*TABLET SECTION*/
+@media only screen and (min-width:600px) and (max-width:767px) {
+    .tech{
+        font-size: 25px;
+    }
+    .more{
+        font-size: 16px;
+    }
+}
 @media only screen and (min-width:600px) and (max-width:767px) {
     body {
         overflow-x: hidden;
