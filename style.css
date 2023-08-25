@@ -413,7 +413,7 @@ nav ul li a:hover {
 .layer a {
     margin-top: 20px;
     color: black;
-    font-size: 18px;
+    font-size: 30px;
     text-decoration: none;
     line-height: 60px;
     background: white;
@@ -421,6 +421,15 @@ nav ul li a:hover {
     height: 60px;
     border-radius: 50%;
     text-align: center;
+}
+
+.layer a:hover i{
+    transition: all .4s ease-in-out;
+    color: white;
+    text-shadow: 0 0 7px #fff, 0 0 10px #000, 0 0 11px cyan, 0 0 15px cyan, 0 0 15px cyan, 0 0 15px cyan;
+}
+.layer a:hover{
+    background-color: #000;
 }
 .layer p{
     font-size: 20px;
@@ -737,7 +746,7 @@ nav .fas {
         background-color: rgb(61, 61, 61);
    }
     nav ul {
-        background: linear-gradient(rgba(0,0,0,1), rgb(0, 39, 39));
+        background: linear-gradient(rgba(0,0,0,1), rgb(0, 20, 20));
         position: fixed;
         top: 0;
         right: -200px;
@@ -935,7 +944,7 @@ nav .fas {
         background-color: rgb(61, 61, 61);
    }
     nav ul {
-        background: linear-gradient(rgba(0,0,0,1), rgb(0, 39, 39));
+        background: linear-gradient(rgba(0,0,0,1), rgb(0, 20, 20));
         position: fixed;
         top: 0;
         right: -200px;
@@ -1155,7 +1164,7 @@ nav .fas {
         background-color: rgb(61, 61, 61);
    }
     nav ul {
-        background: linear-gradient(rgba(0,0,0,1), rgb(0, 39, 39));
+        background: linear-gradient(rgba(0,0,0,1), rgb(0, 20, 20));
         position: fixed;
         top: 0;
         right: -200px;
@@ -1335,7 +1344,7 @@ nav .fas {
         background-color: rgb(61, 61, 61);
    }
     nav ul {
-        background: linear-gradient(rgba(0,0,0,1), rgb(0, 39, 39));
+        background: linear-gradient(rgba(0,0,0,1), rgb(0, 20, 20));
         position: fixed;
         top: 0;
         right: -200px;
@@ -1519,7 +1528,7 @@ nav .fas {
         background-color: rgb(61, 61, 61);
    }
     nav ul {
-        background: linear-gradient(rgba(0,0,0,1), rgb(0, 39, 39));
+        background: linear-gradient(rgba(0,0,0,1), rgb(0, 20, 20));
         position: fixed;
         top: 0;
         right: -200px;
@@ -1990,29 +1999,7 @@ nav .fas {
         font-size: 18px;
    }
 }
-@media only screen and (min-width:1270px) and (max-width:6000px) {
-    nav ul {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        border-bottom-right-radius: 50px;
-        border-bottom-left-radius: 50px;
-   }
-    .sticky {
-        box-shadow: 0 8px 32px 0 rgba(0, 255, 255, 0.37);
-        background: rgba(8, 8, 8, 0.35);
-        transition: all .3s ease-in-out;
-        height: 10vh;
-        backdrop-filter: blur( 8px );
-        -webkit-backdrop-filter: blur( 8px );
-        border-radius: 10px;
-        border-radius: 10px;
-   }
-}
+/*1920+ SECTION*/
 @media only screen and (min-width:1800px) and (max-width:6000px) {
     .projectDesc ~ .layer {
         height: 90%;
@@ -2040,5 +2027,45 @@ nav .fas {
     .layer p{
         font-size: 30px;
     }
+    .layer a {
+        width: 80px;
+        height: 80px;
+        font-size: 40px;
+        padding-top: 10px;
+    }
     
+}
+
+/*DESKTOP SECTION*/
+@media only screen and (min-width:1270px) and (max-width:6000px) {
+    nav ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        border-bottom-right-radius: 50px;
+        border-bottom-left-radius: 50px;
+   }
+    .sticky {
+        box-shadow: 0 8px 32px 0 rgba(0, 255, 255, 0.37);
+        background: rgba(8, 8, 8, 0.35);
+        transition: all .3s ease-in-out;
+        height: 10vh;
+        backdrop-filter: blur( 8px );
+        -webkit-backdrop-filter: blur( 8px );
+        border-radius: 10px;
+        border-radius: 10px;
+   }
+}
+/*MOBILE TO TABLET SECTION*/
+@media only screen and (min-width:300px) and (max-width:1269px) {
+  
+    nav ul {
+        background: linear-gradient(rgba(0,0,0,1), rgb(0, 20, 20));
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
 }
