@@ -168,11 +168,6 @@ nav ul li a:hover {
     -webkit-text-stroke: 1.5px cyan;
     position: relative;
     display: inline-block;
-    text-transform: uppercase;
-    animation: waviy 1s infinite;
-    animation-delay: calc(.1s * var(--i));
-    margin: -10px;
-    margin-bottom: 25px;
 }
 .info-container {
     margin-top: 5rem;
@@ -253,14 +248,6 @@ nav ul li a:hover {
 .tailwind-logo{
     height: 35px;
 }
-@keyframes waviy {
-    0%,40%,100% {
-        transform: translateY(0) 
-   }
-    20% {
-        transform: translateY(-20px) 
-   }
-}
 /*SKILLS SECTION*/
 #skills {
     padding: 30px 0;
@@ -271,19 +258,8 @@ nav ul li a:hover {
     font-family: "Roboto";
 }
 .skills-container h3 span {
-    margin: 3rem auto;
-    animation: neon 3s ease infinite;
+    color: black;
     -webkit-text-stroke: 1.5px cyan;
-}
-@keyframes neon {
-    0%, 100% {
-        text-shadow: 0 0 10px #3bd6c6, 0 0 20px #3bd6c6, 0 0 20px #3bd6c6, 0 0 20px #3bd6c6, 0 0 2px darkcyan, 2px 2px 2px #806914;
-        color: #89ecda;
-   }
-    50% {
-        text-shadow: 0 0 2px #003333, 0 0 5px #003333, 0 0 5px #003333, 0 0 5px #003333, 0 0 2px #003333, 4px 4px 2px #40340a;
-        color: black 
-   }
 }
 .my-skills {
     display: grid;
@@ -299,7 +275,7 @@ nav ul li a:hover {
     font-size: 20px;
 }
 .my-skills div {
-    background: rgb(31, 31, 31);
+    background: rgba(29, 29, 29, 0.696);
     padding: 40px;
     font-size: 20px;
     font-weight: 300;
@@ -331,7 +307,6 @@ nav ul li a:hover {
     background: linear-gradient(rgba(0,0,0,0.6), rgba(5, 75, 75, 0.504));
     transform: translateY(-20px);
     cursor: crosshair;
-    border-top: 2px solid rgba(255, 255, 255, 0.875);
 }
 @keyframes openclose {
     0% {
@@ -368,11 +343,6 @@ nav ul li a:hover {
 .works-container h5 span {
     color: black;
     -webkit-text-stroke: 1.5px cyan;
-    display: inline-block;
-    position: relative;
-    animation: flip 3s infinite;
-    animation-delay: calc(.3s * var(--i));
-    margin-right: -1.4%;
 }
 .work-content {
     margin-left: 1.5%;
@@ -428,7 +398,6 @@ nav ul li a:hover {
     border-radius: 50%;
     text-align: center;
 }
-
 .layer a:hover i{
     transition: all .4s ease-in-out;
     color: white;
@@ -493,7 +462,7 @@ nav ul li a:hover {
 }
 .tailwind{
     height: 30px;
-    filter: brightness(0) invert(1)
+    filter: brightness(0) invert(1) 
 }
 .more{
     color: rgb(136, 135, 135);
@@ -513,12 +482,6 @@ nav ul li a:hover {
 }
 .stack-shake{
     animation: shake 3s infinite;
-}
-@keyframes flip {
-    0%,70% {
-        transform: rotateX(360deg) 
-   }
-   ;
 }
 @keyframes shake{
     0% {
@@ -545,15 +508,8 @@ nav ul li a:hover {
     margin-bottom: 80px;
 }
 .socials-container h6 span {
-    color: cyan;
-    overflow: hidden;
-    background: linear-gradient(90deg, #000, cyan, #000);
-    background-repeat: no-repeat;
-    background-size: 80%;
-    animation: animate 3s linear infinite;
-    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+    color: black;
     -webkit-text-stroke: 1.5px cyan;
-    -webkit-background-clip: text;
 }
 .social-list {
     display: grid;
@@ -589,14 +545,6 @@ nav ul li a:hover {
 }
 .swiper-button-next:hover, .swiper-button-prev:hover {
     color: white !important;
-}
-@keyframes animate {
-    0% {
-        background-position: -500%;
-   }
-    100% {
-        background-position: 500%;
-   }
 }
 /*CONTACT SECTION*/
 #contacts {
@@ -715,7 +663,7 @@ nav .fas {
     .more{
         font-size: 9px;
    }
-   .tailwind{
+    .tailwind{
         height: 15px;
         width: auto;
    }
@@ -1118,10 +1066,10 @@ nav .fas {
 @media only screen and (min-width:600px) and (max-width:1269px) {
     .tech{
         font-size: 25px;
-    }
+   }
     .more{
         font-size: 16px;
-    }
+   }
 }
 @media only screen and (min-width:600px) and (max-width:767px) {
     body {
@@ -1693,14 +1641,14 @@ nav .fas {
     .copyright {
         font-size: 20px;
    }
-   .tech{
-    font-size: 40px;
+    .tech{
+        font-size: 40px;
    }
-   .more{
-    font-size: 15px;
+    .more{
+        font-size: 15px;
    }
-   .tab-contents{
-    margin-left: 140px;
+    .tab-contents{
+        margin-left: 140px;
    }
 }
 /*1280 SECTION*/
@@ -2010,47 +1958,45 @@ nav .fas {
     .projectDesc ~ .layer {
         height: 90%;
    }
-   .works-container h5 span {
-    margin-right: -1.3%;
-    }
-   .logos{
-    height: 60px;
-    width: auto;
+    .works-container h5 span {
+        margin-right: -1.3%;
    }
-   .tech{
-    font-size: 70px;
+    .logos{
+        height: 60px;
+        width: auto;
    }
-   .my-skills div {
-    height: 340px;
-    font-size: 30px;
-    }
+    .tech{
+        font-size: 70px;
+   }
+    .my-skills div {
+        height: 340px;
+        font-size: 30px;
+   }
     .more{
         font-size: 25px;
-    }
+   }
     .layer h6{
         font-size: 40px;
-    }
+   }
     .layer p{
         font-size: 30px;
-    }
+   }
     .layer a {
         width: 80px;
         height: 80px;
         font-size: 40px;
         padding-top: 10px;
-    }
+   }
     .php{
         height: 45px;
-    }
+   }
     .tailwind-logo{
-        height:40px
-    }
+        height:40px 
+   }
     .projectDesc ~ .layer {
         height: 87%;
-    }
-    
+   }
 }
-
 /*DESKTOP SECTION*/
 @media only screen and (min-width:1270px) and (max-width:6000px) {
     nav ul {
@@ -2074,16 +2020,15 @@ nav .fas {
         border-radius: 10px;
         border-radius: 10px;
    }
-   .contact-left p{
-    margin-top: 30px;
+    .contact-left p{
+        margin-top: 30px;
    }
 }
 /*MOBILE TO TABLET SECTION*/
 @media only screen and (min-width:300px) and (max-width:1269px) {
-  
     nav ul {
         background: linear-gradient(rgba(0,0,0,1), rgb(0, 20, 20));
         border-top-left-radius: 20px;
         border-bottom-left-radius: 20px;
-    }
+   }
 }
