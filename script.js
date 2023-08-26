@@ -133,6 +133,3 @@ const formScript = (() => {
   })
 })();
 
-
-//
-document.querySelector('.resume').addEventListener('click', () => alert('Request a Résumé through my LinkedIn :)'))
