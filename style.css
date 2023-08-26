@@ -247,6 +247,12 @@ nav ul li a:hover {
     width: auto;
     margin: 15px 20px 10px 0px;
 }
+.php{
+    height: 40px;
+}
+.tailwind-logo{
+    height: 35px;
+}
 @keyframes waviy {
     0%,40%,100% {
         transform: translateY(0) 
@@ -2032,6 +2038,15 @@ nav .fas {
         height: 80px;
         font-size: 40px;
         padding-top: 10px;
+    }
+    .php{
+        height: 45px;
+    }
+    .tailwind-logo{
+        height:40px
+    }
+    .projectDesc ~ .layer {
+        height: 87%;
     }
     
 }
