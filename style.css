@@ -524,8 +524,8 @@ nav ul li a:hover {
 
 .contact-left a {
     color: white;
-    font-size: 100px;
-    margin-right: 50px;
+    font-size: 80px;
+    margin-right: 30px;
     transition: all .2s ease-in-out;
 }
 .contact-left a:hover {
@@ -803,20 +803,6 @@ nav .fas {
         margin-top: 50px;
         margin-left: 0px;
    }
-    .medias {
-        margin-left: 0px;
-        margin-top: 20px;
-        text-decoration: none;
-        line-height: 100px;
-        border-radius: 20px;
-        text-align: center;
-        flex-basis: auto;
-   }
-    .medias a {
-        transition: scale 0.2s;
-        text-align: center;
-        font-size: 50px;
-   }
     .contact-left, .contact-right {
         flex-basis: 100%;
         text-align: center;
@@ -824,6 +810,7 @@ nav .fas {
    }
     .contact-left p {
         font-size: 15px;
+        margin-top: 20px;
    }
     form input, form textarea {
         font-size: 15px;
@@ -831,6 +818,16 @@ nav .fas {
     .copyright {
         font-size: 15px;
    }
+   .medias{
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+   .contact-left a {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    transition: all .2s ease-in-out;
+}
 }
 @media only screen and (min-width:377px) and (max-width:599px) {
     #header {
@@ -999,26 +996,13 @@ nav .fas {
         margin-top: 50px;
         margin-left: 0px;
    }
-    .medias {
-        margin-left: 0px;
-        margin-top: 20px;
-        text-decoration: none;
-        line-height: 100px;
-        border-radius: 20px;
-        text-align: center;
-        flex-basis: auto;
-   }
-    .medias a {
-        transition: scale 0.2s;
-        text-align: center;
-        font-size: 50px;
-   }
     .contact-left, .contact-right {
         flex-basis: 100%;
         text-align: center;
         margin-top: 0px;
    }
     .contact-left p {
+        margin-top: 20px;
         font-size: 15px;
    }
     form input, form textarea {
@@ -1027,6 +1011,16 @@ nav .fas {
     .copyright {
         font-size: 15px;
    }
+   .medias{
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+   .contact-left a {
+    color: white;
+    font-size: 55px;
+    text-align: center;
+    transition: all .2s ease-in-out;
+}
 }
 /*TABLET SECTION*/
 @media only screen and (min-width:600px) and (max-width:1269px) {
@@ -1036,6 +1030,19 @@ nav .fas {
     .more{
         font-size: 16px;
    }
+   .contact-left p{
+    margin-top: 20px;
+   }
+   .medias{
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+   .contact-left a {
+    color: white;
+    font-size: 75px;
+    text-align: center;
+    transition: all .2s ease-in-out;
+}
 }
 @media only screen and (min-width:600px) and (max-width:767px) {
     body {
@@ -1174,9 +1181,6 @@ nav .fas {
         animation-delay: calc(.3s * var(--i));
         margin-right: -2.5%;
    }
-    .medias {
-        flex-basis: 30%;
-   }
     .work-list h6 {
         margin-top: 30px;
         font-size: 20px;
@@ -1197,21 +1201,6 @@ nav .fas {
         border-radius: 50%;
         text-align: center;
         margin-top: 10px;
-   }
-    .medias {
-        margin-left: 30px;
-        margin-top: 20px;
-        text-decoration: none;
-        line-height: 100px;
-        border-radius: 30px;
-        text-align: center;
-        flex-basis: 25%;
-   }
-    .medias a {
-        color: lightgray;
-        transition: scale 0.2s;
-        text-align: center;
-        font-size: 60px;
    }
     .project {
         border-radius: 10px;
@@ -1381,21 +1370,6 @@ nav .fas {
         border-radius: 50%;
         text-align: center;
         margin-top: 10px;
-   }
-    .medias {
-        margin-left: 30px;
-        margin-top: 20px;
-        text-decoration: none;
-        line-height: 100px;
-        border-radius: 30px;
-        text-align: center;
-        flex-basis: 25%;
-   }
-    .medias a {
-        color: lightgray;
-        transition: scale 0.2s;
-        text-align: center;
-        font-size: 60px;
    }
     .project {
         border-radius: 10px;
@@ -1577,21 +1551,6 @@ nav .fas {
         border-radius: 50%;
         text-align: center;
         margin-top: 10px;
-   }
-    .medias {
-        margin-left: 30px;
-        margin-top: 20px;
-        text-decoration: none;
-        line-height: 100px;
-        border-radius: 30px;
-        text-align: center;
-        flex-basis: 25%;
-   }
-    .medias a {
-        color: lightgray;
-        transition: scale 0.2s;
-        text-align: center;
-        font-size: 60px;
    }
     .project {
         border-radius: 10px;
