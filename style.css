@@ -464,6 +464,12 @@ nav ul li a:hover {
     height: 30px;
     filter: brightness(0) invert(1) 
 }
+.pug{
+    height: 50px;
+}
+.nodejs{
+    height: 50px;
+}
 .more{
     color: rgb(136, 135, 135);
     margin: 0 10px;
@@ -633,6 +639,12 @@ nav .fas {
         height: 15px;
         width: auto;
    }
+    .pug{
+        height: 25px;
+    }
+    .nodejs{
+        height: 25px;
+    }
 }
 @media only screen and (min-width:300px) and (max-width:376px) {
     #header {
