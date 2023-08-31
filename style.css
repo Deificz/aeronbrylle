@@ -640,10 +640,10 @@ nav .fas {
         width: auto;
    }
     .pug{
-        height: 25px;
+        height: 15px;
     }
     .nodejs{
-        height: 25px;
+        height: 15px;
     }
 }
 @media only screen and (min-width:300px) and (max-width:376px) {
