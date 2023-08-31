@@ -1055,6 +1055,12 @@ nav .fas {
     text-align: center;
     transition: all .2s ease-in-out;
 }
+    .pug{
+        height: 25px;
+    }
+    .nodejs{
+        height: 25px;
+    }
 }
 @media only screen and (min-width:600px) and (max-width:767px) {
     body {
@@ -1359,6 +1365,15 @@ nav .fas {
         animation-delay: calc(.3s * var(--i));
         margin-right: -2.5%;
    }
+    .tech{
+        font-size: 30px;
+    }
+    .pug{
+    height: 30px;
+    }
+    .nodejs{
+    height: 30px;
+    }
     .medias {
         flex-basis: 30%;
    }
@@ -1580,7 +1595,13 @@ nav .fas {
    }
     .tech{
         font-size: 40px;
-   }
+    }
+    .pug{
+        height: 40px;
+    }
+    .nodejs{
+        height: 40px;
+    }
     .more{
         font-size: 15px;
    }
