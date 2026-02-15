@@ -49,7 +49,7 @@ body {
 #header {
     width: 100%;
     height: 100vh;
-    background-image: url(https://lh3.googleusercontent.com/pw/AIL4fc9EemXopnxG5DlO1-vOwMgQtj0IcyjKacf3YTGG_7MV1MOyXTisDsy9S0BiiU4yVk5yQLG8cKv0pSmlimVtIq-4_ohs1RXiK7s92PnMJw9eNYumtaQ=w2400);
+    background-image: url('./Images/main/bg.gif');
     background-size: cover;
     background-color: black;
     background-position: center;
@@ -667,7 +667,7 @@ nav .fas {
 
 @media only screen and (min-width:300px) and (max-width:376px) {
     #header {
-        background-image: url(https://lh3.googleusercontent.com/pw/AIL4fc99bT87y3gBu9yNuNXjPalPQXHZeD8tIyXt5CuJkFSM2Y1YWOSNyZ-QF1xmCMebuMzHbbxEl_il6cnE5I5qWN3JcEHQIJq9ryj2R9Q3hjjj6w8U3RU=w2400);
+        background-image: url('./Images/main/phonebg.gif');
    }
     .header-text {
         margin-top: 50%;
@@ -867,7 +867,7 @@ nav .fas {
 }
 @media only screen and (min-width:377px) and (max-width:599px) {
     #header {
-        background-image: url(https://lh3.googleusercontent.com/pw/AIL4fc99bT87y3gBu9yNuNXjPalPQXHZeD8tIyXt5CuJkFSM2Y1YWOSNyZ-QF1xmCMebuMzHbbxEl_il6cnE5I5qWN3JcEHQIJq9ryj2R9Q3hjjj6w8U3RU=w2400);
+        background-image: url('./Images/main/phonebg.gif');
    }
     .header-text {
         margin-top: 45%;
@@ -1091,7 +1091,7 @@ nav .fas {
         overflow-x: hidden;
    }
     #header {
-        background-image: url(https://lh3.googleusercontent.com/pw/AIL4fc99bT87y3gBu9yNuNXjPalPQXHZeD8tIyXt5CuJkFSM2Y1YWOSNyZ-QF1xmCMebuMzHbbxEl_il6cnE5I5qWN3JcEHQIJq9ryj2R9Q3hjjj6w8U3RU=w2400);
+        background-image: url('./Images/main/phonebg.gif');
    }
     .header-text {
         margin-top: 40%;
@@ -1264,7 +1264,7 @@ nav .fas {
         overflow-x: hidden;
    }
     #header {
-        background-image: url(https://lh3.googleusercontent.com/pw/AIL4fc99bT87y3gBu9yNuNXjPalPQXHZeD8tIyXt5CuJkFSM2Y1YWOSNyZ-QF1xmCMebuMzHbbxEl_il6cnE5I5qWN3JcEHQIJq9ryj2R9Q3hjjj6w8U3RU=w2400);
+        background-image: url('./Images/main/phonebg.gif');
    }
     .header-text {
         margin-top: 35%;
@@ -1442,7 +1442,7 @@ nav .fas {
         overflow-x: hidden;
    }
     #header {
-        background-image: url(https://lh3.googleusercontent.com/pw/AIL4fc99bT87y3gBu9yNuNXjPalPQXHZeD8tIyXt5CuJkFSM2Y1YWOSNyZ-QF1xmCMebuMzHbbxEl_il6cnE5I5qWN3JcEHQIJq9ryj2R9Q3hjjj6w8U3RU=w2400);
+        background-image: url('./Images/main/phonebg.gif');
    }
     .header-text {
         margin-top: 25%;
